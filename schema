@@ -1,0 +1,35 @@
+name:[name]
+# requirements
+available:yes,no
+type:webbased,
+free:yes,no
+installable:yes,no
+workable:yes,no
+schematic:yes,no
+# criteria: publication
+lastpublication:[year]
+citations:[number]
+citations_corpora:[number]
+# criteria: technical
+last_version:[year]
+source_code:yes,no
+online availability;
+installation:easy,medium,hard
+documentation:good,poor,none
+# criteria: data format
+format_schema:
+format_documents:
+format_annotations:
+# criteria: functional
+multi-label:yes,no
+document-level:yes,no
+relationships:yes,partial,no
+ontologies:yes,no
+pre-annotations:yes,no
+medline-pmc:yes,no
+full-texts:yes,no
+partial-save:yes,no
+highlight:yes,no
+users-teams:yes,no
+iaa:yes,no
+data-privacy:yes,no
