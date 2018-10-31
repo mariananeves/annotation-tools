@@ -13,7 +13,7 @@ citations_corpora:[number]
 # criteria: technical
 last_version:[year]
 source_code:yes,no
-online availability;
+online_available:yes,no
 installation:easy,medium,hard
 documentation:good,poor,none
 # criteria: data format
