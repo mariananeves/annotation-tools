@@ -1,0 +1,35 @@
+name:AlvisAE
+# requirements
+available:no
+type:stand-alone
+free:yes
+#installable:yes,no
+#workable:yes,no
+schematic:yes
+# criteria: publication
+last_publication:2012
+citations:12
+#citations_corpora:[number]
+# criteria: technical
+#last_version:[year]
+source_code:no
+online_available:no
+#installation:easy,medium,hard
+#documentation:good,poor,none
+# criteria: data format
+#format_schema:
+#format_documents:
+#format_annotations:
+# criteria: functional
+#multi-label:yes,no
+document-level:no
+relationships:yes
+ontologies:yes
+#pre-annotations:yes,no
+#medline-pmc:yes,no
+#full-texts:yes,no
+#partial-save:yes,no
+highlight:yes
+#users-teams:yes,no
+#iaa:yes,no
+#data-privacy:yes,no
