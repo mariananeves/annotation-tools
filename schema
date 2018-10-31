@@ -7,7 +7,7 @@ installable:yes,no
 workable:yes,no
 schematic:yes,no
 # criteria: publication
-lastpublication:[year]
+last_publication:[year]
 citations:[number]
 citations_corpora:[number]
 # criteria: technical
