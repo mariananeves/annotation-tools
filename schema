@@ -1,7 +1,7 @@
 name:[name]
 # requirements
 available:yes,no
-type:webbased,
+type:web-based,stand-alone,plug-in
 free:yes,no
 installable:yes,no
 workable:yes,no
