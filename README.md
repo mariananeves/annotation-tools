@@ -3,7 +3,7 @@ List of annotation tools (in alphabetical order):
 
 | Tools | Publication | Link |
 | ---- | ---- | ---- |
-| [AlvisAE](https://osf.io/xhrdp/wiki/AlvisAE/) | [link to paper](http://www.aclweb.org/anthology/W12-3621) | tool not found |
+| AlvisAE | [link to paper](http://www.aclweb.org/anthology/W12-3621) | tool not found |
 | Anafora | [link to paper](http://www.aclweb.org/anthology/N13-3004) | [link to tool](https://github.com/weitechen/anafora) |
 | Analec | [link to paper](https://halshs.archives-ouvertes.fr/halshs-00698971/document) | [link to tool](http://lattice.cnrs.fr/Telecharger-Analec?lang=fr) |
 | Annotator | paper not found | [link to tool](http://annotatorjs.org/) |
