@@ -66,7 +66,7 @@ List of annotation tools (in alphabetical order):
 | WAT-SL | [link to paper](https://aclanthology.info/papers/E17-3004/e17-3004) | [link to tool](https://github.com/webis-de/wat) |
 | WebAnno | [link to paper](http://www.aclweb.org/anthology/P13-4001) | [link to tool](http://webanno.github.io) |
 | WordFreak | [link to paper](http://www.aclweb.org/anthology/N03-4009) | [link to tool](http://wordfreak.sourceforge.net/) |
-| XConc Suite | [link to paper](https://academic.oup.com/bioinformatics/article/19/suppl_1/i180/227927) | [link to tool](http://www.geniaproject.org/tools/xconc) |
+| XConc Suite | paper not found | [link to tool](http://www.geniaproject.org/tools/xconc) |
 | YEDDA | [link to paper](http://www.aclweb.org/anthology/P18-4006) | [link to tool](https://github.com/jiesutd/YEDDA) |
 
 
