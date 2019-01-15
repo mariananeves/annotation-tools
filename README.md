@@ -32,6 +32,7 @@ List of annotation tools (in alphabetical order):
 | GATE Teamware | [link to paper](https://doi.org/10.1007/s10579-013-9215-6) | [link to tool](https://gate.ac.uk/teamware/) |
 | GitDox | [link to paper](https://aaai.org/ocs/index.php/FLAIRS/FLAIRS17/paper/viewFile/15451/15012) | [link to tool](https://corpling.uis.georgetown.edu/gitdox/) |
 | Glozz | [link to paper](http://doi.acm.org/10.1145/2361354.2361394) | [link to tool](http://glozz.free.fr/) |
+| Guide Link | [link to paper](http://www.aclweb.org/anthology/Y09-2040) | tool not found |
 | Hypothesis | paper not found | [link to tool](https://web.hypothes.is/) |
 | Inforex | [link to paper](https://doi.org/10.26615/978-954-452-049-6_063) | [link to tool](https://inforex.clarin-pl.eu/) |
 | Knowtator | [link to paper](http://dx.doi.org/10.3115/1225785.1225791) | [link to tool](http://knowtator.sourceforge.net/) |
