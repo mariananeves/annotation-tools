@@ -35,6 +35,7 @@ List of annotation tools (in alphabetical order):
 | Guide Link | [link to paper](http://www.aclweb.org/anthology/Y09-2040) | tool not found |
 | Hypothesis | paper not found | [link to tool](https://web.hypothes.is/) |
 | Inforex | [link to paper](https://doi.org/10.26615/978-954-452-049-6_063) | [link to tool](https://inforex.clarin-pl.eu/) |
+| KAFnotator | [link to paper](https://core.ac.uk/download/pdf/37831905.pdf) | tool not found |
 | Knowtator | [link to paper](http://dx.doi.org/10.3115/1225785.1225791) | [link to tool](http://knowtator.sourceforge.net/) |
 | LightTag | paper not found | [link to tool](https://www.lighttag.io/) |
 | MAE | [link to paper](https://dl.acm.org/citation.cfm?id=2018966.2018982) | [link to tool](https://code.google.com/archive/p/mae-annotation/) |
