@@ -12,7 +12,6 @@ List of annotation tools (in alphabetical order):
 | Argo | [link to paper](https://academic.oup.com/database/article/doi/10.1093/database/bas010/432774) | [link to tool](http://argo.nactem.ac.uk/) |
 | Atomic | [link to paper](http://www.personal.uni-jena.de/~mu65qev/papdf/p045.pdf) | [link to tool](http://corpus-tools.org/atomic/) |
 | BioAnnotate | [link to paper](https://www.sciencedirect.com/science/article/pii/S0169260713000837) | [link to tool](http://www.sing-group.org/bioannote/) |
-| BioClass | [link to paper](https://link.springer.com/chapter/10.1007/978-3-319-07581-5_29) | [link to tool](http://sing.ei.uvigo.es/bioclass/) |
 | Bionotate | [link to paper](https://doi.org/10.1016/j.jbi.2009.02.001) | [link to tool](http://bionotate.sourceforge.net/) |
 | BioQRator | [link to paper](http://dx.doi.org/10.1093/database/bau067) | [link to tool](http://www.bioqrator.org/) |
 | brat | [link to paper](https://www.aclweb.org/anthology/E/E12/E12-2021.pdf) | [link to tool](http://brat.nlplab.org/) |
