@@ -17,17 +17,26 @@ def search(args):
 	results = {}
 	for name, tool in tools.items():
 		matches = 0
-		info = name+': '
+		info = ''
 		for arg in filters:
 			#print(tool[arg],filters[arg])
-			if arg in tool and tool[arg] is not None and tool[arg]==filters[arg]:
-				matches += 1
-				info += arg+'='+tool[arg]+' '
+			if arg in tool and tool[arg] is not None:
+				is_match = False
+				print(name,tool[arg])
+				if arg in {'last_publication','citations','citations_corpora','last_version'} and int(tool[arg])>=filters[arg]:
+					is_match = True
+				else:
+					if tool[arg]==filters[arg]:
+						is_match = True
+				if is_match:
+					matches += 1
+					info += arg+'='+tool[arg]+' '
 		if matches>0:
 			tool['info'] = info
 			tool['matches'] = matches
 			results[name] = tool
 	# print results
+	arr_output = []
 	print('\n*** RESULTS ***')
 	#print(len(results))
 	if len(results)==0:
@@ -37,10 +46,16 @@ def search(args):
 		for name, result in results.items():
 			#print(result['matches'])
 			if result['matches']==total:
-				print(result['matches'],result['info'])
+				print(result['matches'],name,result['info'])
+				output_elem = {}
+				output_elem['matches'] = result['matches']
+				output_elem['info'] = result['info']
+				output_elem['name'] = name
+				arr_output.append(output_elem)
+	return arr_output
 
 def loadFilters(args):
-	#print('filters:')
+	#print(args)
 	filters = {}
 	for arg in vars(args):
 		value =  getattr(args, arg)
