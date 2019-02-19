@@ -29,7 +29,7 @@ List of annotation tools (in alphabetical order):
 | ezTag | [link to paper](http://dx.doi.org/10.1093/nar/gky428) | [link to tool](http://eztag.bioqrator.org/) |
 | FLAT | paper not found | [link to tool](https://github.com/proycon/flat) |
 | GATE Teamware | [link to paper](https://doi.org/10.1007/s10579-013-9215-6) | [link to tool](https://gate.ac.uk/teamware/) |
-| GitDox | [link to paper](https://aaai.org/ocs/index.php/FLAIRS/FLAIRS17/paper/viewFile/15451/15012) | [link to tool](https://corpling.uis.georgetown.edu/gitdox/) |
+| GitDOX | [link to paper](https://aaai.org/ocs/index.php/FLAIRS/FLAIRS17/paper/viewFile/15451/15012) | [link to tool](https://corpling.uis.georgetown.edu/gitdox/) |
 | Glozz | [link to paper](http://doi.acm.org/10.1145/2361354.2361394) | [link to tool](http://glozz.free.fr/) |
 | Hypothesis | paper not found | [link to tool](https://web.hypothes.is/) |
 | Inforex | [link to paper](https://doi.org/10.26615/978-954-452-049-6_063) | [link to tool](https://inforex.clarin-pl.eu/) |
