@@ -29,7 +29,7 @@ List of annotation tools (in alphabetical order):
 | ezTag | [link to paper](http://dx.doi.org/10.1093/nar/gky428) | [link to tool](http://eztag.bioqrator.org/) |
 | FLAT | paper not found | [link to tool](https://github.com/proycon/flat) |
 | GATE Teamware | [link to paper](https://doi.org/10.1007/s10579-013-9215-6) | [link to tool](https://gate.ac.uk/teamware/) |
-| GitDOX | [link to paper](https://aaai.org/ocs/index.php/FLAIRS/FLAIRS17/paper/viewFile/15451/15012) | [link to tool](https://corpling.uis.georgetown.edu/gitdox/) |
+| GitDox | [link to paper](https://aaai.org/ocs/index.php/FLAIRS/FLAIRS17/paper/viewFile/15451/15012) | [link to tool](https://corpling.uis.georgetown.edu/gitdox/) |
 | Glozz | [link to paper](http://doi.acm.org/10.1145/2361354.2361394) | [link to tool](http://glozz.free.fr/) |
 | Hypothesis | paper not found | [link to tool](https://web.hypothes.is/) |
 | Inforex | [link to paper](https://doi.org/10.26615/978-954-452-049-6_063) | [link to tool](https://inforex.clarin-pl.eu/) |
@@ -55,7 +55,7 @@ List of annotation tools (in alphabetical order):
 | SAPIENT | [link to paper](http://www.aclweb.org/anthology/W09-1325) | [link to tool](http://www.aber.ac.uk/en/cs/research/cb/projects/art/software/) |
 | Semantator | [link to paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3392053/) | [link to tool](http://informatics.mayo.edu/CNTRO/index.php/Semantator) |
 | Serengeti | [link to paper](http://dl.acm.org/citation.cfm?id=1642059.1642082) | tool not found |
-| SALTO | [link to paper](https://aclanthology.info/papers/L06-1197/l06-1197) | tool not found |
+| SALTO | [link to paper](https://aclanthology.info/papers/L06-1197/l06-1197) | [link to tool](http://www.coli.uni-saarland.de/projects/salsa/page.php?id=software) | 
 | SAWT | [link to paper](http://www.aclweb.org/anthology/W16-5808) | tool not found |
 | Slate | [link to paper](http://www.jlcl.org/2011_Heft2/11.pdf) | tool not found |
 | tagtog | [link to paper](http://dx.doi.org/10.1093/database/bau033) | [link to tool](http://www.tagtog.net/) |
