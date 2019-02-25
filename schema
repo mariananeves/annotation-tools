@@ -17,19 +17,19 @@ online_available:yes,no
 installation:easy,medium,hard
 documentation:good,poor,none
 # criteria: data format
-format_schema:
-format_documents:
-format_annotations:
+format_schema:XML,JSON,GUI,other
+format_documents:XML,JSON,TXT,other
+format_annotations:XML,JSON,TXT,other
 # criteria: functional
-multi-label:yes,no
-document-level:yes,no
+multi_label:yes,no
+document_level:yes,no
 relationships:yes,partial,no
 ontologies:yes,no
-pre-annotations:yes,no
-medline-pmc:yes,no
-full-texts:yes,no
-partial-save:yes,no
+preannotations:yes,no
+medline_pmc:yes,no
+full_texts:yes,no
+partial_save:yes,no
 highlight:yes,no
-users-teams:yes,no
+users_teams:yes,no
 iaa:yes,no
-data-privacy:yes,no
+data_privacy:yes,no
