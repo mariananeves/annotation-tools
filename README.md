@@ -26,6 +26,7 @@ List of annotation tools (in alphabetical order):
 | CRAB reader | [link to paper](http://www.aclweb.org/anthology/C12-3023) | tool not found |
 | Djangology | [link to paper](http://www.lrec-conf.org/proceedings/lrec2010/pdf/543_Paper.pdf) | [link to tool](http://sourceforge.net/projects/djangology/) |
 | DOMEO | [link to paper](http://bio-ontologies.knowledgeblog.org/297) | [link to tool](https://github.com/domeo/domeo) |
+| EasyRef | [link to paper](https://hal.inria.fr/inria-00553520/document) | tool not found |
 | Egas | [link to paper](http://dx.doi.org/10.1093/database/bau048) | [link to tool](https://demo.bmd-software.com/egas/) |
 | eHost | paper not found | [link to tool](https://code.google.com/archive/p/ehost/) |
 | Ellogon | [link to paper](http://www.lrec-conf.org/proceedings/lrec2002/pdf/211.pdf) | [link to tool](http://www.ellogon.org/) |
