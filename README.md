@@ -62,6 +62,7 @@ List of annotation tools (in alphabetical order):
 | SALTO | [link to paper](https://aclanthology.info/papers/L06-1197/l06-1197) | [link to tool](http://www.coli.uni-saarland.de/projects/salsa/page.php?id=software) | 
 | SAWT | [link to paper](http://www.aclweb.org/anthology/W16-5808) | tool not found |
 | Slate | [link to paper](https://www.cl.c.titech.ac.jp/_media/publication/673.pdf) | tool not found |
+| SYNC3 | [link to paper](http://www.lrec-conf.org/proceedings/lrec2012/pdf/700_Paper.pdf) | tool not found |
 | tagtog | [link to paper](http://dx.doi.org/10.1093/database/bau033) | [link to tool](http://www.tagtog.net/) |
 | TextAE | paper not found | [link to tool](http://textae.pubannotation.org/) |
 | Textpresso | [link to paper](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0020309) | [link to tool](http://www.textpresso.org/) |
