@@ -15,9 +15,11 @@ List of annotation tools (in alphabetical order):
 | Bionotate | [link to paper](https://doi.org/10.1016/j.jbi.2009.02.001) | [link to tool](http://bionotate.sourceforge.net/) |
 | BioQRator | [link to paper](http://dx.doi.org/10.1093/database/bau067) | [link to tool](http://www.bioqrator.org/) |
 | brat | [link to paper](https://www.aclweb.org/anthology/E/E12/E12-2021.pdf) | [link to tool](http://brat.nlplab.org/) |
+| Cadixe | [link to paper](https://www.aclweb.org/anthology/W04-1207) | tool not found |
 | Callisto | [link to paper](https://www.researchgate.net/profile/Robyn_Kozierok/publication/228869890_Callisto_A_configurable_annotation_workbench/links/53ea2e840cf2dc24b3cb12e6/Callisto-A-configurable-annotation-workbench.pdf) | [link to tool](https://mitre.github.io/callisto/) |
 | Cas Editor | paper not found | [link to tool](http://uima.apache.org/d/uimaj-current/tools.html#ugr.tools.ce) |
 | Catma | paper not found | [link to tool](http://catma.de/) |
+| CCASH | [link to paper](http://www.lrec-conf.org/proceedings/lrec2010/pdf/360_Paper.pdf) | [link to tool](http://sourceforge.net/projects/ccash) |
 | CLARIN-EL | [link to paper](http://www.lrec-conf.org/proceedings/lrec2016/pdf/990_Paper.pdf) | [link to tool](http://clarin.ellogon.org/) |
 | Coco | [link to paper](http://www.sepln.org/revistaSEPLN/revista/43/articulos/art45.pdf) | tool not found |
 | CRAB reader | [link to paper](http://www.aclweb.org/anthology/C12-3023) | tool not found |
