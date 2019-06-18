@@ -49,6 +49,7 @@ List of annotation tools (in alphabetical order):
 | ODIN | [link to paper](https://doi.org/10.1186/1471-2105-15-S14-S6) | [link to tool](http://www.ontogene.org/odin) |
 | OLLIE | [link to paper](http://ucrel.lancs.ac.uk/publications/CL2003/papers/cunningham.pdf) | tool not found |
 | PACTE | [link to paper](http://aclweb.org/anthology/W17-7410) | [link to tool](http://pacte.crim.ca/index_en.html) |
+| PALinkA | [link to paper](http://clg.wlv.ac.uk/projects/PALinkA/) | [link to tool](https://www.aclweb.org/anthology/W03-2120) |
 | PDFAnno | [link to paper](http://www.lrec-conf.org/proceedings/lrec2018/pdf/680.pdf) | [link to tool](https://github.com/paperai/pdfanno) |
 | prodigy | paper not found | [link to tool](https://prodi.gy/) |
 | PubTator | [link to paper](http://dx.doi.org/10.1093/nar/gkt441) | [link to tool](http://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/PubTator/) |
