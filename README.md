@@ -7,6 +7,7 @@ List of annotation tools (in alphabetical order):
 | Anafora | [link to paper](http://www.aclweb.org/anthology/N13-3004) | [link to tool](https://github.com/weitechen/anafora) |
 | Analec | [link to paper](https://halshs.archives-ouvertes.fr/halshs-00698971/document) | [link to tool](http://lattice.cnrs.fr/Telecharger-Analec?lang=fr) |
 | Annotator | paper not found | [link to tool](http://annotatorjs.org/) |
+| Anotatornia | [link to paper](http://nlp.ipipan.waw.pl/~adamp/Papers/2009-palc-anotatornia/) | [link to tool](http://zil.ipipan.waw.pl/Anotatornia) |
 | APLenty | [link to paper](http://aclweb.org/anthology/D18-2019) | tool not found |
 | @Note |  [link to paper](https://www.sciencedirect.com/science/article/pii/S1532046409000537?via=ihub) | [link to tool](http://anote-project.org/) |
 | Argo | [link to paper](https://academic.oup.com/database/article/doi/10.1093/database/bas010/432774) | [link to tool](http://argo.nactem.ac.uk/) |
