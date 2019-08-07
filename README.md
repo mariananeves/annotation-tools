@@ -23,7 +23,7 @@ List of annotation tools (in alphabetical order):
 | Catma | paper not found | [link to tool](http://catma.de/) |
 | CCASH | [link to paper](http://www.lrec-conf.org/proceedings/lrec2010/pdf/360_Paper.pdf) | [link to tool](http://sourceforge.net/projects/ccash) |
 | CLARIN-EL | [link to paper](http://www.lrec-conf.org/proceedings/lrec2016/pdf/990_Paper.pdf) | [link to tool](http://clarin.ellogon.org/) |
-| Coco | [link to paper](http://www.sepln.org/revistaSEPLN/revista/43/articulos/art45.pdf) | tool not found |
+| Coco | [link to paper](https://upcommons.upc.edu/handle/2117/9200) | tool not found |
 | CRAB reader | [link to paper](http://www.aclweb.org/anthology/C12-3023) | tool not found |
 | Djangology | [link to paper](http://www.lrec-conf.org/proceedings/lrec2010/pdf/543_Paper.pdf) | [link to tool](http://sourceforge.net/projects/djangology/) |
 | DOMEO | [link to paper](http://bio-ontologies.knowledgeblog.org/297) | [link to tool](https://github.com/domeo/domeo) |
