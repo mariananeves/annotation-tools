@@ -74,7 +74,7 @@ List of annotation tools (in alphabetical order):
 | UAM Corpus | [link to paper](https://www.aclweb.org/anthology/P08-4004) | [link to tool](http://corpustool.com/features.html) |
 | Vogon | paper not found | [link to tool](http://gobtan.sourceforge.net) |
 | WARP-Text | [link to paper](http://aclweb.org/anthology/C18-2029) | [link to tool](https://github.com/venelink/WARP) |
-| WASA | [link to paper](http://www.lrec-conf.org/proceedings/lrec2018/summaries/474.html) | tool not found |
+| WASA | [link to paper](https://www.aclweb.org/anthology/L18-1173) | tool not found |
 | WAT-SL | [link to paper](https://aclanthology.info/papers/E17-3004/e17-3004) | [link to tool](https://github.com/webis-de/wat) |
 | WebAnno | [link to paper](http://www.aclweb.org/anthology/P13-4001) | [link to tool](http://webanno.github.io) |
 | WebAnnotator | [link to paper](http://www.lrec-conf.org/proceedings/lrec2012/pdf/148_Paper.pdf) | [link to tool](https://addons.mozilla.org/en-US/firefox/addon/webannotator/) |
