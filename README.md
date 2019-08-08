@@ -71,7 +71,7 @@ List of annotation tools (in alphabetical order):
 | tagtog | [link to paper](http://dx.doi.org/10.1093/database/bau033) | [link to tool](http://www.tagtog.net/) |
 | TextAE | paper not found | [link to tool](http://textae.pubannotation.org/) |
 | Textpresso | [link to paper](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0020309) | [link to tool](http://www.textpresso.org/) |
-| UAM Corpus | [link to paper](http://dl.acm.org/citation.cfm?id=1564144.1564148) | [link to tool](http://corpustool.com/features.html) |
+| UAM Corpus | [link to paper](https://www.aclweb.org/anthology/P08-4004) | [link to tool](http://corpustool.com/features.html) |
 | Vogon | paper not found | [link to tool](http://gobtan.sourceforge.net) |
 | WARP-Text | [link to paper](http://aclweb.org/anthology/C18-2029) | [link to tool](https://github.com/venelink/WARP) |
 | WASA | [link to paper](http://www.lrec-conf.org/proceedings/lrec2018/summaries/474.html) | tool not found |
