@@ -47,6 +47,7 @@ List of annotation tools (in alphabetical order):
 | Marky | [link to paper](https://doi.org/10.1016/j.cmpb.2014.11.005) | [link to tool](http://www.sing-group.org/marky/) |
 | MAT | paper not found | [link to tool](http://mat-annotation.sourceforge.net/) |
 | MDSWriter | [link to paper](http://www.aclweb.org/anthology/P/P16/P16-4017.pdf) | [link to tool](https://github.com/UKPLab/mdswriter) |
+| MedCATTrainer | [link to paper](https://www.aclweb.org/anthology/D19-3024.pdf) | [link to tool](https://github.com/CogStack/MedCATtrainer) |
 | MMAX2 | [link to paper](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.211.6678) | [link to tool](http://mmax2.net/) |
 | MyMiner | [link to paper](http://dx.doi.org/10.1093/bioinformatics/bts435) | [link to tool](http://myminer.armi.monash.edu.au/) |
 | NOMAD | [link to paper](http://www.lrec-conf.org/proceedings/lrec2014/pdf/669_Paper.pdf) | [link to tool](http://www.ellogon.org/index.php/annotation-tool/nomad-annotation-tool) |
