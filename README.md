@@ -17,7 +17,7 @@ List of annotation tools (in alphabetical order):
 | Bionotate | [link to paper](https://doi.org/10.1016/j.jbi.2009.02.001) | [link to tool](http://bionotate.sourceforge.net/) |
 | BioQRator | [link to paper](http://dx.doi.org/10.1093/database/bau067) | [link to tool](http://www.bioqrator.org/) |
 | brat | [link to paper](https://www.aclweb.org/anthology/E/E12/E12-2021.pdf) | [link to tool](http://brat.nlplab.org/) |
-| Cadixe | [link to paper](https://www.aclweb.org/anthology/W04-1207) | tool not found |
+| Cadixe | [link to paper](https://www.aclweb.org/anthology/W04-1207) | [link to tool](http://caderige.imag.fr/Cadixe/index.html) |
 | Callisto | [link to paper](https://www.researchgate.net/profile/Robyn_Kozierok/publication/228869890_Callisto_A_configurable_annotation_workbench/links/53ea2e840cf2dc24b3cb12e6/Callisto-A-configurable-annotation-workbench.pdf) | [link to tool](https://mitre.github.io/callisto/) |
 | Cas Editor | paper not found | [link to tool](http://uima.apache.org/d/uimaj-current/tools.html#ugr.tools.ce) |
 | Catma | paper not found | [link to tool](http://catma.de/) |
