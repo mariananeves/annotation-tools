@@ -2,34 +2,36 @@ name:[name]
 # requirements
 available:yes,no
 type:web-based,stand-alone,plug-in
-free:yes,no
 installable:yes,no
 workable:yes,no
 schematic:yes,no
 # criteria: publication
-last_publication:[year]
+last-publication:[year]
 citations:[number]
 citations_corpora:[number]
 # criteria: technical
-last_version:[year]
-source_code:yes,no
-online_available:yes,no
+last-version:[year]
+source-code:yes,no
+online-available:yes,no
 installation:easy,medium,hard
 documentation:good,poor,none
+license:full,partial,none
+free:yes,partial,no
 # criteria: data format
-format_schema:XML,JSON,GUI,other
-format_documents:XML,JSON,TXT,other
-format_annotations:XML,JSON,TXT,other
+format-schema:XML,JSON,GUI,other
+format-documents:XML,JSON,TXT,other
+format-annotations:XML,JSON,TXT,other
 # criteria: functional
-multi_label:yes,no
-document_level:yes,no
+multilabel:yes,no
+document-level:yes,partial,no
 relationships:yes,partial,no
 ontologies:yes,no
-preannotations:yes,no
-medline_pmc:yes,no
-full_texts:yes,no
-partial_save:yes,no
+preannotations:yes,partial,no
+medline-pmc:yes,partial,no
+full-texts:yes,partial,no
+partial_save:yes,partial,no
 highlight:yes,no
-users_teams:yes,no
-iaa:yes,no
-data_privacy:yes,no
+users-teams:yes,partial,no
+iaa:yes,partial,no
+data-privacy:yes,no
+multilingual:yes,partial,no
