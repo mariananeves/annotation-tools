@@ -33,7 +33,6 @@ List of annotation tools (in alphabetical order):
 | Ellogon | [link to paper](http://www.lrec-conf.org/proceedings/lrec2002/pdf/211.pdf) | [link to tool](http://www.ellogon.org/) |
 | EULIA | [link to paper](http://ixa.eus/sites/default/files/dokumentuak/3274/04LREC_EULIA.pdf) | tool not found |
 | ezTag | [link to paper](http://dx.doi.org/10.1093/nar/gky428) | [link to tool](http://eztag.bioqrator.org/) |
-| ezTeamTag | paper not found | [link to tool](https://ezteamtag.bioqrator.org/) |
 | FLAT | paper not found | [link to tool](https://github.com/proycon/flat) |
 | GATE Teamware | [link to paper](https://doi.org/10.1007/s10579-013-9215-6) | [link to tool](https://gate.ac.uk/teamware/) |
 | GitDox | [link to paper](https://aaai.org/ocs/index.php/FLAIRS/FLAIRS17/paper/viewFile/15451/15012) | [link to tool](https://corpling.uis.georgetown.edu/gitdox/) |
@@ -77,6 +76,7 @@ List of annotation tools (in alphabetical order):
 | SLATE | [link to paper](https://www.aclweb.org/anthology/P19-3002) | [link to tool](http://jkk.name/slate/) |
 | SYNC3 | [link to paper](http://www.lrec-conf.org/proceedings/lrec2012/pdf/700_Paper.pdf) | tool not found |
 | tagtog | [link to paper](http://dx.doi.org/10.1093/database/bau033) | [link to tool](http://www.tagtog.net/) |
+| TeamTat | paper not found | [link to tool](https://ezteamtag.bioqrator.org/) |
 | TextAE | paper not found | [link to tool](http://textae.pubannotation.org/) |
 | Textpresso | [link to paper](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0020309) | [link to tool](http://www.textpresso.org/) |
 | UAM Corpus | [link to paper](https://www.aclweb.org/anthology/P08-4004) | [link to tool](http://corpustool.com/features.html) |
