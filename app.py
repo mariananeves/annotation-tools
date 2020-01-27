@@ -25,7 +25,6 @@ def index():
 			arguments = Arguments()
 			arguments.available=form.available.data
 			arguments.type = form.type_install.data
-			arguments.free = form.free.data
 			arguments.installable = form.installable.data
 			arguments.workable = form.workable.data
 			arguments.schematic = form.schematic.data
@@ -39,6 +38,8 @@ def index():
 			arguments.online_available = form.online_available.data
 			arguments.installation = form.installation.data
 			arguments.documentation = form.documentation.data
+			arguments.free = form.free.data
+			arguments.license = form.license.data
 			# data		
 			arguments.format_schema = form.format_schema.data
 			arguments.format_documents = form.format_documents.data
@@ -56,13 +57,14 @@ def index():
 			arguments.users_teams = form.users_teams.data
 			arguments.iaa = form.iaa.data
 			arguments.data_privacy = form.data_privacy.data
+			arguments.multilingual = form.multilingual.data
 			print(arguments)
 			arr_output = search(arguments)
 			print(len(arr_output))
-			return render_template('florence.html', form=form, arr_output=arr_output)
+			return render_template('annotationsaurus.html', form=form, arr_output=arr_output)
 		else:
 			flash(form.errors)
-	return render_template('florence.html', form=form)
+	return render_template('annotationsaurus.html', form=form)
 
 @app.route('/about')
 def about():
@@ -80,7 +82,6 @@ class SearchForm(FlaskForm):
 	# requirements
 	available = BooleanField('available', validators=[])
 	type_install = SelectField('type tool', choices=[('', ''), ('web-based', 'web-based'), ('stand-alone', 'stand-alone'), ('plug-in', 'plug-in')])
-	free = BooleanField('free', validators=[])
 	installable = BooleanField('installable', validators=[])
 	workable = BooleanField('workable', validators=[])
 	schematic = BooleanField('schematic', validators=[])
@@ -94,30 +95,32 @@ class SearchForm(FlaskForm):
 	online_available = BooleanField('online available', validators=[])
 	installation = SelectField('installation', choices=[('', ''), ('easy', 'easy'), ('medium', 'medium'), ('hard', 'hard')])
 	documentation = SelectField('documentation', choices=[('', ''), ('good', 'good'), ('poor', 'poor'), ('none', 'none')])
+	free = SelectField('free', choices=[('', ''), ('yes', 'yes'), ('partial', 'partial'), ('no', 'no')])
+	license = SelectField('license', choices=[('', ''), ('yes', 'yes'), ('partial', 'partial'), ('none', 'none')])
 	# data format
 	format_schema = SelectField('format schema', choices=[('', ''), ('XML', 'XML'), ('JSON', 'JSON'), ('GUI', 'GUI'), ('other', 'other')])
 	format_documents = SelectField('format documents', choices=[('', ''), ('XML', 'XML'), ('JSON', 'JSON'), ('TXT', 'TXT'), ('other', 'other')])
 	format_annotations = SelectField('format annotations', choices=[('', ''), ('XML', 'XML'), ('JSON', 'JSON'), ('TXT', 'TXT'), ('other', 'other')])
 	# functional
 	multi_label = BooleanField('multi_label', validators=[])
-	document_level = BooleanField('document level', validators=[])
+	document_level = SelectField('document level', choices=[('', ''), ('yes', 'yes'), ('partial', 'partial'), ('no', 'no')])
 	relationships = SelectField('relationships', choices=[('', ''), ('yes', 'yes'), ('partial', 'partial'), ('no', 'no')])
 	ontologies = BooleanField('ontologies', validators=[])
-	preannotations = BooleanField('preannotations', validators=[])
-	medline_pmc = BooleanField('medline/pmc', validators=[])
-	full_texts = BooleanField('full_texts', validators=[])
-	partial_save = BooleanField('partial save', validators=[])
+	preannotations = SelectField('preannotations', choices=[('', ''), ('yes', 'yes'), ('partial', 'partial'), ('no', 'no')])
+	medline_pmc = SelectField('medline/pmc', choices=[('', ''), ('yes', 'yes'), ('partial', 'partial'), ('no', 'no')])
+	full_texts = SelectField('full texts', choices=[('', ''), ('yes', 'yes'), ('partial', 'partial'), ('no', 'no')])
+	partial_save = SelectField('partial save', choices=[('', ''), ('yes', 'yes'), ('partial', 'partial'), ('no', 'no')])
 	highlight = BooleanField('highlight', validators=[])
-	users_teams = BooleanField('users_teams', validators=[])
-	iaa = BooleanField('iaa', validators=[])
+	users_teams = SelectField('users/teams', choices=[('', ''), ('yes', 'yes'), ('partial', 'partial'), ('no', 'no')])
+	iaa = SelectField('iaa', choices=[('', ''), ('yes', 'yes'), ('partial', 'partial'), ('no', 'no')])
 	data_privacy = BooleanField('data privacy', validators=[])
+	multilingual = SelectField('multilingual', choices=[('', ''), ('yes', 'yes'), ('partial', 'partial'), ('no', 'no')])
 	submit = SubmitField('Submit')
 
 class Arguments():
 	def __init__(self):
 		self.available = ""
 		self.type = ""
-		self.free = ""
 		self.installable = ""
 		self.workable = ""
 		self.schematic = ""
@@ -131,6 +134,8 @@ class Arguments():
 		self.online_available = ""
 		self.installation = ""
 		self.documentation = ""
+		self.free = ""
+		self.license = ""
 		# data		
 		self.format_schema = ""
 		self.format_documents = ""
@@ -148,6 +153,7 @@ class Arguments():
 		self.users_teams = ""
 		self.iaa = ""
 		self.data_privacy = ""
+		self.multilingual = ""
 		
 
 

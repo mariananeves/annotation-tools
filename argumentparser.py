@@ -64,7 +64,7 @@ def ArgumentParser():
                         help='whether the tool supports highlighting text spans')
     parser.add_argument('--users_teams', type=str, choices=['yes','partial','no'], #default='yes',
                         help='whether the tool supports users and teams')
-    parser.add_argument('--iaa', action='store_true', #type=str, choices=['yes','no'], #default='yes',
+    parser.add_argument('--iaa', type=str, choices=['yes','partial','no'], #default='yes',
                         help='whether the tool supports inter-annotator agreement')
     parser.add_argument('--data_privacy', action='store_true', #type=str, choices=['yes','no'], #default='no',
                         help='whether the tool can be used with private data')
