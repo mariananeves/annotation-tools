@@ -13,7 +13,6 @@
 <div>
 {{ form.type_install.label }} {{ form.type_install }}
 {{ form.available }} {{ form.available.label }} 
-{{ form.free }} {{ form.free.label }}
 {{ form.installable }} {{ form.installable.label }} 
 {{ form.workable }} {{ form.workable.label }} 
 {{ form.schematic }} {{ form.schematic.label }}
@@ -39,6 +38,8 @@
 {{ form.last_version.label }} {{ form.last_version(size=4) }} 
 {{ form.installation.label }} {{ form.installation }} 
 {{ form.documentation.label }} {{ form.documentation }} 
+{{ form.free.label }} {{ form.free }}
+{{ form.license.label }} {{ form.license }}
 {{ form.source_code }} {{ form.source_code.label }}  
 {{ form.online_available }} {{ form.online_available.label }}
 </div>
@@ -61,23 +62,24 @@
 <legend>Functional criteria</legend>
 <div>
 {{ form.relationships.label }} {{ form.relationships }} 
+{{ form.document_level.label }} {{ form.document_level }} 
+{{ form.preannotations.label }} {{ form.preannotations }} 
 {{ form.multi_label }} {{ form.multi_label.label }} 
-{{ form.document_level }} {{ form.document_level.label }} 
 {{ form.ontologies }} {{ form.ontologies.label }} 
-{{ form.preannotations }} {{ form.preannotations.label }} 
-<br>
-{{ form.medline_pmc }} {{ form.medline_pmc.label }} 
-{{ form.full_texts }} {{ form.full_texts.label }} 
-{{ form.partial_save }} {{ form.partial_save.label }} 
+{{ form.data_privacy }} {{ form.data_privacy.label }}
 {{ form.highlight }} {{ form.highlight.label }} 
-{{ form.users_teams }} {{ form.users_teams.label }} 
-{{ form.iaa }} {{ form.iaa.label }} 
-{{ form.data_privacy }} {{ form.data_privacy.label }} 
+<br>
+{{ form.medline_pmc.label }} {{ form.medline_pmc }} 
+{{ form.full_texts.label }} {{ form.full_texts }} 
+{{ form.partial_save.label }} {{ form.partial_save }} 
+{{ form.users_teams.label }} {{ form.users_teams }} 
+{{ form.iaa.label }} {{ form.iaa }} 
+{{ form.multilingual.label }} {{ form.multilingual }} 
 </div>
 </fieldset>
 
 <br>
 
-{{ form.submit }}
+{{ form.submit }} <a href="{{ url_for('index') }}">Clear form</a>
 
 </form>

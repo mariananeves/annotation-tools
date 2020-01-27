@@ -1,0 +1,25 @@
+
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block page_content %}
+
+{% include '_form.html' %}
+
+<br>
+
+{% if arr_output %}
+<table>
+<tr><td>Matches</td><td>Tool</td><td>Matched criteria</td></tr>
+{% for elem in arr_output %}
+	<tr><td>{{ elem['matches'] }}</td><td>{{ elem['name'] }}</td><td>{{ elem['info'] }}</td></tr>
+{% endfor %}
+</table>
+{% endif %}
+
+<br>
+
+{% endblock %}
+
+
+
