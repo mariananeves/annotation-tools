@@ -1,5 +1,11 @@
-List of annotation tools (in alphabetical order):
 
+Please cite our survey if you use this repository:
+
+Mariana Neves and Jurica Seva. **An extensive review of tools for manual annotation of documents**, *Briefings in Bioinformatics*, 2019. [PDF and BibTex](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbz130/5670958)
+
+---
+
+List of annotation tools (in alphabetical order):
 
 | Tools | Publication | Link |
 | ---- | ---- | ---- |
