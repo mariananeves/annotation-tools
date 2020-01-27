@@ -2,16 +2,18 @@
 import argumentparser
 import os
 
+from stats import load_tools
+
 def main():
 	args = argumentparser.ArgumentParser()
 	search(args)
 
 def search(args):
 	# load tools
-	tools = loadTools()
+	tools = load_tools()
 	print('tools loaded...',len(tools))
 	# load filters
-	filters = loadFilters(args)
+	filters = load_filters(args)
 	print('filters loaded...',len(filters))
 	# filter tools
 	results = {}
@@ -23,7 +25,7 @@ def search(args):
 			if arg in tool and tool[arg] is not None:
 				is_match = False
 				print(name,tool[arg])
-				if arg in {'last_publication','citations','citations_corpora','last_version'} and int(tool[arg])>=filters[arg]:
+				if arg in {'last-publication','citations','citations_corpora','last-version'} and int(tool[arg])>=filters[arg]:
 					is_match = True
 				else:
 					if tool[arg]==filters[arg]:
@@ -54,7 +56,7 @@ def search(args):
 				arr_output.append(output_elem)
 	return arr_output
 
-def loadFilters(args):
+def load_filters(args):
 	#print(args)
 	filters = {}
 	for arg in vars(args):
@@ -68,22 +70,6 @@ def loadFilters(args):
 				print(arg, value)
 				filters[arg] = value
 	return filters
-
-def loadTools():
-	toolsDir = './tools/'
-	tools = {}
-	for filename in os.listdir(toolsDir):
-		print(filename)
-		f = open(os.path.join(toolsDir,filename), "r")
-		tool = {}
-		for line in f:
-			if not line.startswith('#'):
-				(feature,value) = line.split(':')
-				tool[feature] = value.rstrip()
-				#print(feature,value)
-		tools[filename] = tool
-	#print(len(tools))
-	return tools
 
 if __name__ == '__main__':
     main()
