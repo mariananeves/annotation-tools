@@ -32,6 +32,7 @@ List of annotation tools (in alphabetical order):
 | Coco | [link to paper](https://upcommons.upc.edu/handle/2117/9200) | tool not found |
 | CRAB reader | [link to paper](http://www.aclweb.org/anthology/C12-3023) | tool not found |
 | Djangology | [link to paper](http://www.lrec-conf.org/proceedings/lrec2010/pdf/543_Paper.pdf) | [link to tool](http://sourceforge.net/projects/djangology/) |
+| doccano | [no paper found] | [link to tool](https://github.com/doccano/doccano) |
 | DOMEO | [link to paper](https://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-3-S1-S1) | [link to tool](https://github.com/domeo/domeo) |
 | EasyRef | [link to paper](https://hal.inria.fr/inria-00553520/document) | tool not found |
 | Egas | [link to paper](http://dx.doi.org/10.1093/database/bau048) | [link to tool](https://demo.bmd-software.com/egas/) |
