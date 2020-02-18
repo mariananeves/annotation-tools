@@ -69,7 +69,6 @@ List of annotation tools (in alphabetical order):
 | PDFAnno | [link to paper](http://www.lrec-conf.org/proceedings/lrec2018/pdf/680.pdf) | [link to tool](https://github.com/paperai/pdfanno) |
 | prodigy | paper not found | [link to tool](https://prodi.gy/) |
 | PubTator | [link to paper](http://dx.doi.org/10.1093/nar/gkt441) | [link to tool](http://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/PubTator/) |
-| PubTerm | [link to paper](https://academic.oup.com/database/article/doi/10.1093/database/bay137/5280306) | [link to tool](http://bioinformatica.mty.itesm.mx:8080/Biomatec/pubterm.html) |
 | Pundit | paper not found | [link to tool](http://thepund.it/annotator-web-annotation/) |
 | RAD | [link to paper](https://ieeexplore.ieee.org/document/4497637) | tool not found |
 | Redcoat | [link to paper](https://www.aclweb.org/anthology/D19-3033.pdf) | [link to tool](http://agent.csse.uwa.edu.au/redcoat/) |
