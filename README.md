@@ -84,7 +84,7 @@ List of annotation tools (in alphabetical order):
 | tagtog | [link to paper](http://dx.doi.org/10.1093/database/bau033) | [link to tool](http://www.tagtog.net/) |
 | TeamTat | paper not found | [link to tool](https://ezteamtag.bioqrator.org/) |
 | TextAE | paper not found | [link to tool](http://textae.pubannotation.org/) |
-| TextAnnotator | [link to paper](https://sigsem.uvt.nl/isa15/ISA-15_proceedings.pdf#page=7) | [link to tool](www.textannotator.texttechnologylab.org) |
+| TextAnnotator | [link to paper](https://sigsem.uvt.nl/isa15/ISA-15_proceedings.pdf#page=7) | [link to tool](http://www.textannotator.texttechnologylab.org/) |
 | Textpresso | [link to paper](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0020309) | [link to tool](http://www.textpresso.org/) |
 | UAM Corpus | [link to paper](https://www.aclweb.org/anthology/P08-4004) | [link to tool](http://corpustool.com/features.html) |
 | Vogon | paper not found | [link to tool](http://gobtan.sourceforge.net) |
