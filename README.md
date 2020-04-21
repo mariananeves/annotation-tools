@@ -26,7 +26,7 @@ List of annotation tools (in alphabetical order):
 | Cadixe | [link to paper](https://www.aclweb.org/anthology/W04-1207) | [link to tool](http://caderige.imag.fr/Cadixe/index.html) |
 | Callisto | [link to paper](https://www.researchgate.net/profile/Robyn_Kozierok/publication/228869890_Callisto_A_configurable_annotation_workbench/links/53ea2e840cf2dc24b3cb12e6/Callisto-A-configurable-annotation-workbench.pdf) | [link to tool](https://mitre.github.io/callisto/) |
 | Cas Editor | paper not found | [link to tool](http://uima.apache.org/d/uimaj-current/tools.html#ugr.tools.ce) |
-| Catma | paper not found | [link to tool](http://catma.de/) |
+| Catma | [link to paper](https://jcmeister.de/downloads/texts/Meister_2020-TACT-to-CATMA.pdf) | [link to tool](http://catma.de/) |
 | CCASH | [link to paper](http://www.lrec-conf.org/proceedings/lrec2010/pdf/360_Paper.pdf) | [link to tool](http://sourceforge.net/projects/ccash) |
 | CLARIN-EL | [link to paper](http://www.lrec-conf.org/proceedings/lrec2016/pdf/990_Paper.pdf) | [link to tool](http://clarin.ellogon.org/) |
 | Coco | [link to paper](https://upcommons.upc.edu/handle/2117/9200) | tool not found |
