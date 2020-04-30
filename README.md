@@ -87,6 +87,7 @@ List of annotation tools (in alphabetical order):
 | TextAnnotator | [link to paper](https://sigsem.uvt.nl/isa15/ISA-15_proceedings.pdf#page=7) | [link to tool](http://www.textannotator.texttechnologylab.org/) |
 | Textpresso | [link to paper](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0020309) | [link to tool](http://www.textpresso.org/) |
 | UAM Corpus | [link to paper](https://www.aclweb.org/anthology/P08-4004) | [link to tool](http://corpustool.com/features.html) |
+| Universal Data Tool | paper not found | [link to tool](https://github.com/UniversalDataTool/universal-data-tool) |
 | Vogon | paper not found | [link to tool](http://gobtan.sourceforge.net) |
 | WARP-Text | [link to paper](http://aclweb.org/anthology/C18-2029) | [link to tool](https://github.com/venelink/WARP) |
 | WASA | [link to paper](https://www.aclweb.org/anthology/L18-1173) | tool not found |
