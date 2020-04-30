@@ -83,8 +83,8 @@ List of annotation tools (in alphabetical order):
 | SMART | [link to paper](http://www.jmlr.org/papers/volume20/18-859/18-859.pdf) | [link to tool](https://github.com/RTIInternational/SMART) |
 | SYNC3 | [link to paper](http://www.lrec-conf.org/proceedings/lrec2012/pdf/700_Paper.pdf) | tool not found |
 | tagtog | [link to paper](http://dx.doi.org/10.1093/database/bau033) | [link to tool](http://www.tagtog.net/) |
-| TALEN | paper not found | [link to tool](https://github.com/CogComp/talen) |
-| TeamTat | paper not found | [link to tool](https://ezteamtag.bioqrator.org/) |
+| TALEN | [link to paper](https://www.aclweb.org/anthology/P18-4014/) | [link to tool](https://github.com/CogComp/talen) |
+| TeamTat | paper not found | (https://www.aclweb.org/anthology/P18-4014/) | [link to tool](https://ezteamtag.bioqrator.org/) |
 | TextAE | paper not found | [link to tool](http://textae.pubannotation.org/) |
 | TextAnnotator | [link to paper](https://sigsem.uvt.nl/isa15/ISA-15_proceedings.pdf#page=7) | [link to tool](http://www.textannotator.texttechnologylab.org/) |
 | Textpresso | [link to paper](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0020309) | [link to tool](http://www.textpresso.org/) |
