@@ -80,6 +80,7 @@ List of annotation tools (in alphabetical order):
 | Serengeti | [link to paper](https://www.aclweb.org/anthology/W07-1523) | tool not found |
 | Slate | [link to paper](https://www.cl.c.titech.ac.jp/_media/publication/673.pdf) | tool not found |
 | SLATE | [link to paper](https://www.aclweb.org/anthology/P19-3002) | [link to tool](http://jkk.name/slate/) |
+| SMART | paper not found | (https://github.com/RTIInternational/SMART) |
 | SYNC3 | [link to paper](http://www.lrec-conf.org/proceedings/lrec2012/pdf/700_Paper.pdf) | tool not found |
 | tagtog | [link to paper](http://dx.doi.org/10.1093/database/bau033) | [link to tool](http://www.tagtog.net/) |
 | TALEN | paper not found | [link to tool](https://github.com/CogComp/talen) |
