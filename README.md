@@ -82,6 +82,7 @@ List of annotation tools (in alphabetical order):
 | SLATE | [link to paper](https://www.aclweb.org/anthology/P19-3002) | [link to tool](http://jkk.name/slate/) |
 | SYNC3 | [link to paper](http://www.lrec-conf.org/proceedings/lrec2012/pdf/700_Paper.pdf) | tool not found |
 | tagtog | [link to paper](http://dx.doi.org/10.1093/database/bau033) | [link to tool](http://www.tagtog.net/) |
+| TALEN | paper not found | [link to tool](https://github.com/CogComp/talen) |
 | TeamTat | paper not found | [link to tool](https://ezteamtag.bioqrator.org/) |
 | TextAE | paper not found | [link to tool](http://textae.pubannotation.org/) |
 | TextAnnotator | [link to paper](https://sigsem.uvt.nl/isa15/ISA-15_proceedings.pdf#page=7) | [link to tool](http://www.textannotator.texttechnologylab.org/) |
