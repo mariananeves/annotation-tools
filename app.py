@@ -1,20 +1,30 @@
-
 import os
 
-from flask import Flask, render_template, request, flash
-
+from flask import Flask
+from flask import flash
+from flask import render_template
+from flask import request
 from flask_bootstrap import Bootstrap
-
 from flask_wtf import FlaskForm
-from wtforms import SubmitField, BooleanField, SelectField, TextAreaField, IntegerField
-from wtforms.validators import DataRequired, NumberRange, Length, Optional, InputRequired
+from werkzeug import secure_filename
+from wtforms import BooleanField
+from wtforms import IntegerField
+from wtforms import SelectField
+from wtforms import SubmitField
+from wtforms.validators import NumberRange
+from wtforms.validators import Optional
 
 from searchtools import search
 
+# Create a directory in a known location to save files to.
+# os.makedirs(uploads_dir, exists_ok=True)
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY') or 'hard to guess string'
+uploads_dir = os.path.join(app.instance_path, 'tools')
 bootstrap = Bootstrap()
 bootstrap.init_app(app)
+
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
