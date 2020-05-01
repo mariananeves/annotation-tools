@@ -72,5 +72,4 @@ def load_filters(args):
 	return filters
 
 if __name__ == '__main__':
-    main()
-
+	main()
