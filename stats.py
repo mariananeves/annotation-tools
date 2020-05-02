@@ -1,5 +1,7 @@
 
 import os
+from pprint import pprint
+
 
 def stats():
 	tools = load_tools()
@@ -46,13 +48,20 @@ def load_tools():
 	return tools
 
 def load_criteria():
+
 	f = open(os.path.join('.','schema'), "r")
-	criteria = []
+	criteria = {}
+	category = None
 	for line in f:
-		if not line.startswith('#'):
-			(feature,value) = line.split(':')
-			criteria.append(feature)
+		if line.startswith('#'):
+			category = line.strip()
+			criteria[category]={}
+		else:
+			(feature,value) = line.rstrip().split(':')
+			criteria[category][feature]=value.split(',')
+	# pprint(criteria)
 	return criteria
+
 
 if __name__ == '__main__':
 	stats()
