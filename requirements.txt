@@ -10,3 +10,5 @@ visitor==0.1.3
 Werkzeug==0.15.3
 WTForms==2.2.1
 gunicorn
+flask_table
+python-dotenv

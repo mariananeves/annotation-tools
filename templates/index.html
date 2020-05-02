@@ -1,0 +1,23 @@
+<!doctype html>
+<html ng-app="WordcountApp">
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.9/angular-material.min.css" />
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<link rel="stylesheet" href="https://rawgit.com/daniel-nagy/md-data-table/master/dist/md-data-table.css" />
+
+<head>
+  <title>Annotationsaurus</title>
+</head>
+<body layout="column" ng-controller="WordcountController" ng-init="getResults()">
+
+{% include 'header.html' %}
+
+{% include 'table.html' %}
+
+{% include 'sideNav.html' %}
+
+</body>
+
+{% include 'includes.html' %}
+
+</html>

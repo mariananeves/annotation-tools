@@ -1,27 +1,26 @@
-name:[name]
-# requirements
+#requirements
 available:yes,no
 type:web-based,stand-alone,plug-in
 installable:yes,no
 workable:yes,no
 schematic:yes,no
-# criteria: publication
-last_publication:[year]
-citations:[number]
-citations_corpora:[number]
-# criteria: technical
-last_version:[year]
+#publication
+last_publication:number
+citations:number
+citations_corpora:number
+#technical
+last_version:number
 source_code:yes,no
 online_available:yes,no
 installation:easy,medium,hard
 documentation:good,poor,none
 license:full,partial,none
 free:yes,partial,no
-# criteria: data format
+#data format
 format_schema:XML,JSON,GUI,other
 format_documents:XML,JSON,TXT,other
 format_annotations:XML,JSON,TXT,other
-# criteria: functional
+#functional
 multilabel:yes,no
 document_level:yes,partial,no
 relationships:yes,partial,no
@@ -35,3 +34,5 @@ users_teams:yes,partial,no
 iaa:yes,partial,no
 data_privacy:yes,no
 multilingual:yes,partial,no
+#name
+name:name

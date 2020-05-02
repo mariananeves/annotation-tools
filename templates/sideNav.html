@@ -1,0 +1,19 @@
+<div layout="column" style="height:500px;" ng-cloak ng-init="getCriteria()">
+  <md-sidenav class="md-sidenav-right md-whiteframe-4dp" md-component-id="right">
+    <div ng-repeat="(key, value) in returnCriteria">
+      <span>[[ key ]]</span>
+      <md-content ng-repeat="(key1, value1) in value" layout="column" >
+        <md-input-container>
+          <span>[[ key1 ]]</span>
+          <md-select ng-model="filterData[key1]" placeholder="Select [[ key1 ]]">
+            <md-option ng-value="">Disable</md-option>
+            <md-option ng-value="opt" ng-repeat="opt in value1">[[ opt ]]</md-option>
+          </md-select>
+        </md-input-container>
+      </md-content>
+    </div>
+    <md-button ng-click="close()" class="md-primary">
+      Close Sidenav Right
+    </md-button>
+  </md-sidenav>
+</div>
