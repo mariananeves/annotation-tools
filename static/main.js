@@ -11,10 +11,12 @@ WordcountApp.config(['$mdThemingProvider', function ($mdThemingProvider) {
       .primaryPalette('blue');
 }]);
 
-WordcountApp.controller('WordcountController', ['$scope', '$log', '$http','$mdEditDialog', '$timeout','$mdSidenav',
-  function($scope, $log, $http, $mdEditDialog, $timeout, $mdSidenav) {
+WordcountApp.controller('WordcountController', ['$scope', '$log', '$http','$mdEditDialog', '$timeout','$mdSidenav', '$mdBottomSheet', '$mdToast',
+  function($scope, $log, $http, $mdEditDialog, $timeout, $mdSidenav, $mdBottomSheet, $mdToast) {
 
+    // PAGINATION
     // https://codepen.io/geocine/pen/ZpoaVK
+    // https://embed.plnkr.co/plunk/IL3cWx
 
     $scope.getResults = function() {
       $http({
@@ -23,9 +25,7 @@ WordcountApp.controller('WordcountController', ['$scope', '$log', '$http','$mdEd
       }).then(function successCallback(response) {
 
         $scope.returnData = response.data;
-        $log.log($scope.returnData);
-        $scope.filteredItems = []
-
+        $scope.filteredItems = $scope.returnData;
         $scope.resetFilters();
 
       }, function errorCallback(response) {
@@ -33,53 +33,72 @@ WordcountApp.controller('WordcountController', ['$scope', '$log', '$http','$mdEd
       });
     };
 
-    $scope.resetFilters = function(){
-      $scope.filterData = $scope.returnData[0]
-      for(var key in $scope.filterData){
-        $scope.filterData[key] = '';
-      }
-      $log.log($scope.filterData);
-    };
-
-    $scope.$watch('filterData', function (newValues, oldValues, scope) {
-      $log.log($scope.filterData);
-      $scope.filteredItems = [];
-      angular.forEach($scope.returnData, function (tool, key) {
-        $scope.compareObjects(tool)
-      });
-      $log.log($scope.filteredItems)
-
-    }, true);
-
-
-    $scope.compareObjects = function(object) {
-      var count = 0
-      for (let [key, value] of Object.entries($scope.filterData)) {
-        // console.log(key, value);
-        // console.log(object[key]);
-        if(value && object[key] === value){
-          count += 1;
-        }
-      }
-
-      if (count > 0 && object.name){
-        // $log.log(object.name, count);
-        $scope.filteredItems.push(
-            {"name":object.name, "matchingCount":count}
-        );
-      }
-    };
-
     $scope.getCriteria = function() {
       $http({
         method: 'POST',
         url: '/criteria'
       }).then(function successCallback(response) {
-        $log.log(response.data);
-        $scope.returnCriteria = response.data
+        $log.log('criteria\t',response.data);
+        $scope.returnCriteria = response.data;
       }, function errorCallback(response) {
         $log.log(response);
       });
+    };
+
+    $scope.resetFilters = function(){
+      $scope.filterData = {};
+      for(var key in $scope.returnData[0]){
+        if (key !== '$$hashKey'){
+          $scope.filterData[key] = false;
+        }
+      }
+      $scope.filteredItems = $scope.returnData;
+      $log.log($scope.filteredItems);
+      $log.log($scope.filterData);
+    };
+
+    $scope.containsFalse = function (){
+      for(var prop in $scope.filterData){
+        if(prop != '$$hashKey' && $scope.filterData[prop] !== false) return true;
+      }
+      return false;
+    }
+
+
+    $scope.$watch('filterData', function (newValues, oldValues, scope) {
+
+      $log.log('filterData:\t' + $scope.filterData);
+      if ($scope.containsFalse()){
+        $log.log('not empty at all');
+        $scope.filteredItems = [];
+        angular.forEach($scope.returnData, function (tool, key) {
+          $scope.compareObjects(tool)
+        });
+      } else{
+        $scope.filteredItems = $scope.returnData;
+        $log.log('should be empty and should return all.');
+      }
+
+      $log.log($scope.filteredItems);
+
+    }, true);
+
+    $scope.compareObjects = function(object) {
+      var count = 0;
+      var matchingObject = {};
+      for (let [key, value] of Object.entries($scope.filterData)) {
+        if(value && object[key] === value){
+          count += 1;
+          matchingObject[key]=value;
+        }
+      }
+
+      if (count > 0){
+        matchingObject["matchingCount"]=count;
+        matchingObject["name"]=object.name;
+        matchingObject["last_publication"]=object.last_publication;
+        $scope.filteredItems.push(matchingObject);
+      }
     };
 
     $scope.toggleRight = buildDelayedToggler('right');
@@ -117,7 +136,7 @@ WordcountApp.controller('WordcountController', ['$scope', '$log', '$http','$mdEd
             .then(function () {
               $log.debug("toggle " + navID + " is done");
             });
-      }, 200);
+      }, 100);
     }
 
     $scope.close = function () {
@@ -126,6 +145,55 @@ WordcountApp.controller('WordcountController', ['$scope', '$log', '$http','$mdEd
           .then(function () {
             $log.debug("close RIGHT is done");
           });
+    };
+
+    $scope.showAbout = function() {
+      $mdBottomSheet.show({
+        // templateUrl: './templates/about.html',
+        template:
+            '<md-bottom-sheet class="md-grid" layout="column">\n' +
+            '<div layout="row" layout-align="center center" ng-cloak>\n' +
+            '\tPlease find more details about the repository of annotation tools in the <a href="https://github.com/mariananeves/annotation-tools">Annotationsaurus GitHub page</a>.\t\n' +
+            '</div>\n' +
+            '\n' +
+            '<div ng-cloak>\n' +
+            'Details about the filters....</a>.\t\n' +
+            '</div>\n' +
+            '</md-bottom-sheet>',
+        controller: 'WordcountController',
+        clickOutsideToClose: true
+      }).then(function(clickedItem) {
+        $mdToast.show(
+            $mdToast.simple()
+                .textContent(clickedItem['name'] + ' clicked!')
+                .position('top right')
+                .hideDelay(1500)
+        );
+      }).catch(function(error) {
+        // User clicked outside or hit escape
+      });
+    };
+
+    $scope.showFAQ = function() {
+      $mdBottomSheet.show({
+        // templateUrl: 'templates/faq.html',
+        template: '<md-bottom-sheet class="md-grid" layout="column">\n' +
+            '<div class="page-header">\n' +
+            'Add FAQ content...\n' +
+            '</div>\n' +
+            '</md-bottom-sheet>',
+        controller: 'WordcountController',
+        clickOutsideToClose: true
+      }).then(function(clickedItem) {
+        $mdToast.show(
+            $mdToast.simple()
+                .textContent(clickedItem['name'] + ' clicked!')
+                .position('top right')
+                .hideDelay(1500)
+        );
+      }).catch(function(error) {
+        // User clicked outside or hit escape
+      });
     };
 
   }]);

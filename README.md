@@ -48,7 +48,7 @@ List of annotation tools (in alphabetical order):
 | GraPAT | [link to paper](https://www.aclweb.org/anthology/L14-1636/) | [link to tool](http://angcl.ling.uni-potsdam.de/resources/grapat.html) |
 | Hexatomic | paper not found | [link to tool](https://github.com/hexatomic/hexatomic) |
 | Hypothesis | paper not found | [link to tool](https://web.hypothes.is/) |
-| IBM Watson Knowledge Studio | paper not found | [link to tool](https://www.ibm.com/watson/services/knowledge-studio/) | 
+| IBM Knowledge Studio | paper not found | [link to tool](https://www.ibm.com/watson/services/knowledge-studio/) | 
 | Inforex | [link to paper](https://doi.org/10.26615/978-954-452-049-6_063) | [link to tool](https://inforex.clarin-pl.eu/) |
 | INCEpTION | [link to paper](https://www.aclweb.org/anthology/C18-2002/) | [link to tool](https://inception-project.github.io/) |
 | KAFnotator | [link to paper](https://core.ac.uk/download/pdf/37831905.pdf) | [link to tool](http://kyoto-project.eu/xmlgroup.iit.cnr.it/kyoto/index2091.html?option=com_content&view=article&id=504&Itemid=173) |
