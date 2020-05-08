@@ -1,7 +1,7 @@
 
 import os
 from pprint import pprint
-
+import re
 
 def stats():
 	tools = load_tools()
@@ -29,9 +29,9 @@ def stats():
 
 def load_tools():
 	toolsDir = './tools/'
+	parsed_readme = parse_readme()
 	tools = {}
 	for filename in os.listdir(toolsDir):
-		#print(filename)
 		f = open(os.path.join(toolsDir,filename), "r")
 		tool = {}
 		for line in f:
@@ -42,12 +42,37 @@ def load_tools():
 			#print(line)
 			(feature,value) = line.split(':')
 			tool[feature] = value.rstrip()
-#			print(feature,value)
 		tools[filename] = tool
-#	print(len(tools))
+
+		for item in ['paper', 'url']:
+			try:
+				tools[filename][item] =parsed_readme[filename.strip()]['paper']
+			except KeyError:
+				tools[filename][item] = 'Not available'
 	return tools
 
+def parse_readme():
+	fp = open(os.path.join('.','README.md'), "r")
+	data = fp.read()
+	data.split('List of annotation tools (in alphabetical order):\n')
+	content = [x for x in data.split('| ---- | ---- | ---- |\n')[1].splitlines( ) if x]
+	tmp_dict = {}
+	for row in content:
+		tmp_row = [x.strip() for x in row.split('|') if x]
+		try:
+			paper_url = re.findall('\((.*?)\)', tmp_row[1])[0]
+		except IndexError:
+			paper_url = 'Not available'
+		try:
+			tool_url = re.findall('\((.*?)\)', tmp_row[2])[0]
+		except IndexError:
+			tool_url = 'Not available'
+		tmp_dict[tmp_row[0].strip()]=dict(paper=paper_url, url=tool_url)
+	return tmp_dict
+
 def load_criteria():
+
+	hide_criteria = ['#publication', '#name']
 
 	f = open(os.path.join('.','schema'), "r")
 	criteria = {}
@@ -59,7 +84,15 @@ def load_criteria():
 		else:
 			(feature,value) = line.rstrip().split(':')
 			criteria[category][feature]=value.split(',')
-	# pprint(criteria)
+
+	for hide in hide_criteria:
+		del criteria[hide]
+
+	filters = {k1:False for k,v in criteria.items() for k1, v1 in v.items()}
+		
+	pprint(criteria)
+	pprint(filters)
+
 	return criteria
 
 
