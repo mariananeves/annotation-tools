@@ -84,9 +84,9 @@ List of annotation tools (in alphabetical order):
 | SYNC3 | [link to paper](http://www.lrec-conf.org/proceedings/lrec2012/pdf/700_Paper.pdf) | tool not found |
 | tagtog | [link to paper](http://dx.doi.org/10.1093/database/bau033) | [link to tool](http://www.tagtog.net/) |
 | TALEN | [link to paper](https://www.aclweb.org/anthology/P18-4014/) | [link to tool](https://github.com/CogComp/talen) |
-| TeamTat | paper not found | (https://www.aclweb.org/anthology/P18-4014/) | [link to tool](https://ezteamtag.bioqrator.org/) |
+| TeamTat | [link to paper](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkaa333/5834578) | [link to tool](https://ezteamtag.bioqrator.org/) |
 | TextAE | paper not found | [link to tool](http://textae.pubannotation.org/) |
-| TextAnnotator | [link to paper](https://sigsem.uvt.nl/isa15/ISA-15_proceedings.pdf#page=7) [link to paper](http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.111.pdf) | [link to tool](http://www.textannotator.texttechnologylab.org/) |
+| TextAnnotator | [link to paper](https://sigsem.uvt.nl/isa15/ISA-15_proceedings.pdf#page=7), [link to paper](http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.111.pdf) | [link to tool](http://www.textannotator.texttechnologylab.org/) |
 | Textpresso | [link to paper](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0020309) | [link to tool](http://www.textpresso.org/) |
 | UAM Corpus | [link to paper](https://www.aclweb.org/anthology/P08-4004) | [link to tool](http://corpustool.com/features.html) |
 | Universal Data Tool | paper not found | [link to tool](https://github.com/UniversalDataTool/universal-data-tool) |
