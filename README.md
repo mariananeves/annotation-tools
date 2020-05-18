@@ -19,6 +19,7 @@ List of annotation tools (in alphabetical order):
 | @Note |  [link to paper](https://www.sciencedirect.com/science/article/pii/S1532046409000537?via=ihub) | [link to tool](http://anote-project.org/) |
 | Argo | [link to paper](https://academic.oup.com/database/article/doi/10.1093/database/bas010/432774) | [link to tool](http://argo.nactem.ac.uk/) |
 | Atomic | [link to paper](https://hildok.bsz-bw.de/frontdoor/index/index/docId/266) | [link to tool](http://corpus-tools.org/atomic/) |
+| AWOCATo | [link to paper](http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.872.pdf) | tool not found |
 | BioAnnotate | [link to paper](https://www.sciencedirect.com/science/article/pii/S0169260713000837) | [link to tool](http://www.sing-group.org/bioannote/) |
 | Bionotate | [link to paper](https://doi.org/10.1016/j.jbi.2009.02.001) | [link to tool](http://bionotate.sourceforge.net/) |
 | BioQRator | [link to paper](http://dx.doi.org/10.1093/database/bau067) | [link to tool](http://www.bioqrator.org/) |
