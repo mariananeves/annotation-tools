@@ -79,6 +79,7 @@ List of annotation tools (in alphabetical order):
 | SAWT | [link to paper](http://www.aclweb.org/anthology/W16-5808) | tool not found |
 | Semantator | [link to paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3392053/) | [link to tool](https://sbmi.uth.edu/ontology/project/semantator.htm) |
 | Serengeti | [link to paper](https://www.aclweb.org/anthology/W07-1523) | tool not found |
+| SFA | [link to paper](http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.881.pdf) | [link to tool](http://sfa.phil.hhu.de:8080/) |
 | Slate | [link to paper](https://www.cl.c.titech.ac.jp/_media/publication/673.pdf) | tool not found |
 | SLATE | [link to paper](https://www.aclweb.org/anthology/P19-3002) | [link to tool](http://jkk.name/slate/) |
 | SMART | [link to paper](http://www.jmlr.org/papers/volume20/18-859/18-859.pdf) | [link to tool](https://github.com/RTIInternational/SMART) |
