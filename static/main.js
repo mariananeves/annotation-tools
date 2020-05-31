@@ -111,6 +111,8 @@ WordcountApp.controller('WordcountController', ['$scope', '$log', '$http','$mdEd
         $log.log('should be empty and should return all.');
       }
 
+      $scope.query.page = 1;
+
       $log.log($scope.filteredItems);
 
     }, true);
