@@ -20,9 +20,9 @@
     <tr md-row ng-repeat="tool in filteredItems | orderBy: query.order | limitTo: query.limit : (query.page -1) * query.limit">
       <td md-cell>[[ tool.name ]]</td>
       <td md-cell>[[ tool.last_publication != '0' ? tool.last_publication : '-' ]]</td>
-      <td md-cell><a target="_blank" ng-href="[[ tool.paper ]]">Read paper</a></td>
-      <td md-cell><a target="_blank" ng-href="[[ tool.url ]]">Open</a></td>
-      <td md-cell>[[ tool.matchingCount ]]</td>
+      <td md-cell><a ng-show="tool.paper" target="_blank" ng-href="[[ tool.paper ]]">[[ tool.paper ? 'Read paper': "Not available" ]]</a></td>
+      <td md-cell><a ng-show="tool.url" target="_blank" ng-href="[[ tool.url ]]">[[ tool.url ? 'Open tool': "Not available" ]]</a></td>
+      <td md-cell>[[ tool.matchingCount ]] [[ tool.matched ]]</td>
     </tr>
     </tbody>
   </table>
