@@ -1,7 +1,7 @@
 <md-sidenav class="md-sidenav-right md-whiteframe-4dp" md-component-id="right" ng-cloak ng-init="getCriteria()">
   <div ng-repeat="(key, value) in returnCriteria">
-    <md-toolbar class="md-warn">[[ key ]]</md-toolbar>
-    <md-content ng-repeat="(key1, value1) in value" layout="column" >
+    <md-toolbar class="md-warn" ng-model="toggleCriteria[key]" ng-click="toggleCriteria[key]=!toggleCriteria[key]">[[ key ]]</md-toolbar>
+    <md-content ng-repeat="(key1, value1) in value" layout="column" ng-show="toggleCriteria[key]">
       <md-input-container>
         <span>[[ key1 ]]</span>
         <md-select ng-model="filterData[key1]" placeholder="Select [[ key1 ]]">

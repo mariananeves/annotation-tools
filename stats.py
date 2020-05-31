@@ -47,8 +47,9 @@ def load_tools():
 		for item in ['paper', 'url']:
 			try:
 				tools[filename][item] =parsed_readme[filename.strip()]['paper']
-			except KeyError:
-				tools[filename][item] = 'Not available'
+			except KeyError as e:
+				print(e)
+				tools[filename][item] = False
 	return tools
 
 def parse_readme():
@@ -62,11 +63,13 @@ def parse_readme():
 		try:
 			paper_url = re.findall('\((.*?)\)', tmp_row[1])[0]
 		except IndexError:
-			paper_url = 'Not available'
+			# paper_url = 'Not available'
+			paper_url = False
 		try:
 			tool_url = re.findall('\((.*?)\)', tmp_row[2])[0]
 		except IndexError:
-			tool_url = 'Not available'
+			# tool_url = 'Not available'
+			tool_url = False
 		tmp_dict[tmp_row[0].strip()]=dict(paper=paper_url, url=tool_url)
 	return tmp_dict
 

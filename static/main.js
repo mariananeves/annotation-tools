@@ -68,6 +68,10 @@ WordcountApp.controller('WordcountController', ['$scope', '$log', '$http','$mdEd
       }).then(function successCallback(response) {
         $log.log('criteria\t',response.data);
         $scope.returnCriteria = response.data;
+        $scope.toggleCriteria = {}
+        for(var key in response.data){
+            $scope.toggleCriteria[key] = false;
+        }
       }, function errorCallback(response) {
         $log.log(response);
       });
@@ -114,10 +118,12 @@ WordcountApp.controller('WordcountController', ['$scope', '$log', '$http','$mdEd
     $scope.compareObjects = function(object) {
       var count = 0;
       var matchingObject = {};
+      matchingObject['matched']= []
       for (let [key, value] of Object.entries($scope.filterData)) {
         if(value && object[key] === value){
           count += 1;
           matchingObject[key]=value;
+          matchingObject['matched'].push(key);
         }
       }
 
@@ -125,6 +131,8 @@ WordcountApp.controller('WordcountController', ['$scope', '$log', '$http','$mdEd
         matchingObject["matchingCount"]=count;
         matchingObject["name"]=object.name;
         matchingObject["last_publication"]=object.last_publication;
+        matchingObject["paper"]=object.paper;
+        matchingObject["url"]=object.url;
         $scope.filteredItems.push(matchingObject);
       }
     };

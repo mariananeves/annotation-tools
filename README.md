@@ -97,7 +97,7 @@ List of annotation tools (in alphabetical order):
 | Textpresso | [link to paper](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0020309) | [link to tool](http://www.textpresso.org/) |
 | TIARA | [link to paper](http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.854.pdf) | [link to tool](https://github.com/wiragotama/TIARA-annotationTool) |
 | UAM Corpus | [link to paper](https://www.aclweb.org/anthology/P08-4004) | [link to tool](http://corpustool.com/features.html) |
-| Universal Data Tool | paper not found | [link to tool](https://github.com/UniversalDataTool/universal-data-tool) |
+| UniversalAnnotationTool | paper not found | [link to tool](https://github.com/UniversalDataTool/universal-data-tool) |
 | Vogon | paper not found | [link to tool](http://gobtan.sourceforge.net) |
 | WARP-Text | [link to paper](http://aclweb.org/anthology/C18-2029) | [link to tool](https://github.com/venelink/WARP) |
 | WASA | [link to paper](https://www.aclweb.org/anthology/L18-1173) | tool not found |
