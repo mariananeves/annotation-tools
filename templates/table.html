@@ -1,22 +1,41 @@
+<md-toolbar class="md-table-toolbar alternate" ng-show="options.rowSelection && filteredItems.length">
+  <div class="md-toolbar-tools">
+    <span>[[ filteredItems.length ]]
+      [[ filteredItems.length > 1 ? 'items' : 'item' ]] selected</span>
+  </div>
+</md-toolbar>
+
 <md-table-container>
-  <table md-table ng-show="filteredItems.length">
+  <table md-table ng-show="filteredItems.length" ng-model="filteredItems">
     <thead md-head>
     <tr md-row>
       <th md-column><span>Tool ([[ filteredItems.length ]])</span></th>
       <th md-column><span>Latest publication year</span></th>
       <th md-column><span>Paper</span></th>
-      <th md-column><span>URL</span></th>
+      <th md-column><span>Tool URL</span></th>
       <th md-column><span>Matching criteria</span></th>
     </tr>
     </thead>
     <tbody md-body>
-    <tr md-row ng-repeat="tool in filteredItems | orderBy: ['matchingCount']:true">
+    <tr md-row ng-repeat="tool in filteredItems | orderBy: query.order | limitTo: query.limit : (query.page -1) * query.limit">
       <td md-cell>[[ tool.name ]]</td>
       <td md-cell>[[ tool.last_publication != '0' ? tool.last_publication : '-' ]]</td>
       <td md-cell><a target="_blank" ng-href="[[ tool.paper ]]">Read paper</a></td>
-      <td md-cell><a target="_blank" ng-href="[[ tool.url ]]">Read paper</a></td>
+      <td md-cell><a target="_blank" ng-href="[[ tool.url ]]">Open</a></td>
       <td md-cell>[[ tool.matchingCount ]]</td>
     </tr>
     </tbody>
   </table>
 </md-table-container>
+
+<!-- Footer / Pagination -->
+<!-- https://codepen.io/anon/pen/BjvLVJ?editors=1010 -->
+<!-- https://github.com/daniel-nagy/md-data-table -->
+<md-table-pagination md-limit="query.limit"
+                     md-limit-options="limitOptions"
+                     md-page="query.page"
+                     md-total=" [[ filteredItems.length ]]"
+                     md-page-select="options.pageSelect"
+                     md-boundary-links="options.boundaryLinks"
+                     md-on-paginate="logPagination">
+</md-table-pagination>

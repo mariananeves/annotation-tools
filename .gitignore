@@ -2,3 +2,4 @@
 /annotation-tools.iml
 /tools/
 /.flaskenv
+__pycache__/

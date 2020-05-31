@@ -1,4 +1,7 @@
-var WordcountApp = angular.module('WordcountApp', ['ngMaterial', 'md.data.table']);
+var WordcountApp = angular.module(
+    'WordcountApp',
+    ['ngMaterial', 'md.data.table']
+);
 
 WordcountApp.config(['$interpolateProvider', function ($interpolateProvider) {
   $interpolateProvider.startSymbol('[[');
@@ -17,6 +20,31 @@ WordcountApp.controller('WordcountController', ['$scope', '$log', '$http','$mdEd
     // PAGINATION
     // https://codepen.io/geocine/pen/ZpoaVK
     // https://embed.plnkr.co/plunk/IL3cWx
+
+    // PAGINATION
+    $scope.limitOptions = [5, 10, 15];
+    $scope.query = {
+      order: 'matchingCount',
+      limit: 10,
+      page: 1
+    };
+
+    $scope.logPagination = function (page, limit) {
+      console.log('page: ', page);
+      console.log('limit: ', limit);
+    }
+
+    $scope.options = {
+      rowSelection: true,
+      multiSelect: true,
+      autoSelect: true,
+      decapitate: false,
+      largeEditDialog: false,
+      boundaryLinks: false,
+      limitSelect: true,
+      pageSelect: true
+    };
+    // PAGINATION
 
     $scope.getResults = function() {
       $http({
@@ -167,7 +195,7 @@ WordcountApp.controller('WordcountController', ['$scope', '$log', '$http','$mdEd
             $mdToast.simple()
                 .textContent(clickedItem['name'] + ' clicked!')
                 .position('top right')
-                .hideDelay(1500)
+                .hideDelay(100)
         );
       }).catch(function(error) {
         // User clicked outside or hit escape
@@ -189,7 +217,7 @@ WordcountApp.controller('WordcountController', ['$scope', '$log', '$http','$mdEd
             $mdToast.simple()
                 .textContent(clickedItem['name'] + ' clicked!')
                 .position('top right')
-                .hideDelay(1500)
+                .hideDelay(100)
         );
       }).catch(function(error) {
         // User clicked outside or hit escape
