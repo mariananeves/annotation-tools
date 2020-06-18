@@ -47,7 +47,7 @@ md-card:first-child {
   padding-bottom: 5px; }
 
 .bottomSheetdemoBasicUsage md-list-item, .bottomSheetdemoBasicUsage md-list-item .md-list-item-inner {
-  min-height: 48px; }
+  min-height: 100px; }
 
 .bottomSheetdemoBasicUsage h2 {
   line-height: 36px;

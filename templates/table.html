@@ -17,20 +17,17 @@
     </tr>
     </thead>
     <tbody md-body>
-    <tr md-row ng-repeat="tool in filteredItems | orderBy: query.order | limitTo: query.limit : (query.page -1) * query.limit">
+    <tr md-row ng-repeat="tool in filteredItems | orderBy: query.order : reverse | limitTo: query.limit : (query.page -1) * query.limit">
       <td md-cell>[[ tool.name ]]</td>
       <td md-cell>[[ tool.last_publication != '0' ? tool.last_publication : '-' ]]</td>
       <td md-cell><a ng-show="tool.paper" target="_blank" ng-href="[[ tool.paper ]]">[[ tool.paper ? 'Read paper': "Not available" ]]</a></td>
-      <td md-cell><a ng-show="tool.url" target="_blank" ng-href="[[ tool.url ]]">[[ tool.url ? 'Open tool': "Not available" ]]</a></td>
-      <td md-cell>[[ tool.matchingCount ]] [[ tool.matched ]]</td>
+      <td md-cell><a ng-show="tool.url" target="_blank" ng-href="[[ tool.url ]]">[[ tool.url ? 'Open tool URL': "Not available" ]]</a></td>
+      <td md-cell>[[ tool.matchingCount ]] [[ tool.matched | join:', ' ]]</td>
     </tr>
     </tbody>
   </table>
 </md-table-container>
 
-<!-- Footer / Pagination -->
-<!-- https://codepen.io/anon/pen/BjvLVJ?editors=1010 -->
-<!-- https://github.com/daniel-nagy/md-data-table -->
 <md-table-pagination md-limit="query.limit"
                      md-limit-options="limitOptions"
                      md-page="query.page"

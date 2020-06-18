@@ -24,8 +24,8 @@ WordcountApp.controller('WordcountController', ['$scope', '$log', '$http','$mdEd
     // PAGINATION
     $scope.limitOptions = [5, 10, 15];
     $scope.query = {
-      order: 'matchingCount',
-      limit: 10,
+      order: ['-matchingCount', 'name'],
+      limit: 15,
       page: 1
     };
 
@@ -235,3 +235,16 @@ WordcountApp.controller('WordcountController', ['$scope', '$log', '$http','$mdEd
     };
 
   }]);
+
+
+WordcountApp.filter('join', function () {
+  return function join(array, separator, prop) {
+    if (!Array.isArray(array)) {
+      return array; // if not array return original - can also throw error
+    }
+
+    return (!angular.isUndefined(prop) ? array.map(function (item) {
+      return item[prop];
+    }) : array).join(separator);
+  };
+});
