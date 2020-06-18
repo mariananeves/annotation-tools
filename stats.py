@@ -46,7 +46,7 @@ def load_tools():
 
 		for item in ['paper', 'url']:
 			try:
-				tools[filename][item] =parsed_readme[filename.strip()]['paper']
+				tools[filename][item] =parsed_readme[filename.strip()][item]
 			except KeyError as e:
 				print(e)
 				tools[filename][item] = False
