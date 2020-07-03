@@ -76,6 +76,7 @@ def parse_readme():
 def load_criteria():
 
 	hide_criteria = ['#publication', '#name']
+	hide_subcriteria = ['last_version']
 
 	f = open(os.path.join('.','schema'), "r")
 	criteria = {}
@@ -85,8 +86,9 @@ def load_criteria():
 			category = line.strip()
 			criteria[category]={}
 		else:
-			(feature,value) = line.rstrip().split(':')
-			criteria[category][feature]=value.split(',')
+			(feature, value) = line.rstrip().split(':')
+			if feature not in hide_subcriteria:
+				criteria[category][feature]=value.split(',')
 
 	for hide in hide_criteria:
 		del criteria[hide]

@@ -85,8 +85,8 @@ WordcountApp.controller('WordcountController', ['$scope', '$log', '$http','$mdEd
         }
       }
       $scope.filteredItems = $scope.returnData;
-      $log.log($scope.filteredItems);
-      $log.log($scope.filterData);
+      // $log.log($scope.filteredItems);
+      // $log.log($scope.filterData);
     };
 
     $scope.containsFalse = function (){
@@ -96,9 +96,30 @@ WordcountApp.controller('WordcountController', ['$scope', '$log', '$http','$mdEd
       return false;
     }
 
+    // switchData SWITCH
+    $scope.switchData = 'OR';
+    $scope.$watch('switchData', function (newValue, oldValue, scope) {
+      if ($scope.switchData === 'AND') {
+        $scope.filterLength = 0;
+        for (let [key, value] of Object.entries($scope.filterData)) {
+          if(value){
+            $scope.filterLength += 1;
+          }
+        }
+      } else {
+        $scope.filterLength = 1;
+      }
+      console.log($scope.filterLength);
+      // console.log(Object.keys($scope.filterData).length);
+      $scope.filterObjects();
+    }, true);
 
+    // filterData SWITCH
     $scope.$watch('filterData', function (newValues, oldValues, scope) {
+      $scope.filterObjects();
+    }, true);
 
+    $scope.filterObjects = function (){
       $log.log('filterData:\t' + $scope.filterData);
       if ($scope.containsFalse()){
         $log.log('not empty at all');
@@ -110,12 +131,9 @@ WordcountApp.controller('WordcountController', ['$scope', '$log', '$http','$mdEd
         $scope.filteredItems = $scope.returnData;
         $log.log('should be empty and should return all.');
       }
-
       $scope.query.page = 1;
-
-      $log.log($scope.filteredItems);
-
-    }, true);
+      $log.log('filteredItems: ' + $scope.filteredItems);
+    };
 
     $scope.compareObjects = function(object) {
       var count = 0;
@@ -129,7 +147,7 @@ WordcountApp.controller('WordcountController', ['$scope', '$log', '$http','$mdEd
         }
       }
 
-      if (count > 0){
+      if (count > ($scope.filterLength-1)){
         matchingObject["matchingCount"]=count;
         matchingObject["name"]=object.name;
         matchingObject["last_publication"]=object.last_publication;
@@ -187,17 +205,21 @@ WordcountApp.controller('WordcountController', ['$scope', '$log', '$http','$mdEd
 
     $scope.showAbout = function() {
       $mdBottomSheet.show({
-        // templateUrl: './templates/about.html',
         template:
-            '<md-bottom-sheet class="md-grid" layout="column">\n' +
-            '<div layout="row" layout-align="center center" ng-cloak>\n' +
-            '\tPlease find more details about the repository of annotation tools in the <a href="https://github.com/mariananeves/annotation-tools">Annotationsaurus GitHub page</a>.\t\n' +
-            '</div>\n' +
-            '\n' +
-            '<div ng-cloak>\n' +
-            'Details about the filters....</a>.\t\n' +
-            '</div>\n' +
-            '</md-bottom-sheet>',
+          '<md-bottom-sheet>' +
+          '<p>Please find more details about the repository of annotation tools in the <a href="https://github.com/mariananeves/annotation-tools" target="_blank">Annotationsaurus GitHub page</a>.</p>' +
+          '<p>If you used our tool, please cite our publication:</p>' +
+        '<ul><li>' +
+        'Neves M, Ševa J.' +
+        '<b>Annotationsaurus: A Searchable Directory of Annotation Tools</b>,' +
+        'EMNLP demo paper [under review]' +
+        '</li><li>' +
+        'Neves M, Ševa J.' +
+        '<b>An extensive review of tools for manual annotation of documents</b>,' +
+        'Briefings in Bioinformatics.' +
+        '<a href="https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbz130/5670958" target="_blank">[Full Text, PDF, and BibTex]</a>' +
+          '</li></ul></md-bottom-sheet>'
+        ,
         controller: 'WordcountController',
         clickOutsideToClose: true
       }).then(function(clickedItem) {
@@ -215,11 +237,109 @@ WordcountApp.controller('WordcountController', ['$scope', '$log', '$http','$mdEd
     $scope.showFAQ = function() {
       $mdBottomSheet.show({
         // templateUrl: 'templates/faq.html',
-        template: '<md-bottom-sheet class="md-grid" layout="column">\n' +
-            '<div class="page-header">\n' +
-            'Add FAQ content...\n' +
-            '</div>\n' +
-            '</md-bottom-sheet>',
+        template: `
+<md-bottom-sheet>
+  <h1>FAQ</h1>
+
+  <ul>
+    <li><a href="#filters">What is the meaning of the filters?</a></li>
+    <li><a href="#newtool">HHow do I ask to add a new annotation tool?</a></li>
+    <li><a href="#newcriterion">How do I ask to add a new criterion?</a></li>
+    <li><a href="#changecriterion">The evaluation of a criterion is wrong for a particular tool, could you correct it?</a></li>
+    <li><a href="#trust">Why should I trust the evaluation that you carried out?</a></li>
+    <li><a href="#collaborate">I find the project great, could I collaborate with you?</a></li>
+  </ul>
+
+  <p id="filters">
+  <h3>What is the meaning of the filters?</h3>
+
+  Please check more details in our <a href="https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbz130/5670958">survey paper</a>.
+
+  <h4>#data format</h4>
+  <ul>
+    <li><b>format_annotations</b>: Format of the schema</li>
+    <li><b>format_documents</b>: Input format for documents</li>
+    <li><b>format_schema</b>: Output format for annotations</li>
+  </ul>
+
+  <h4>#functional</h4>
+  <ul>
+    <li><b>data_privacy</b>: Data privacy</li>
+    <li><b>document_level</b>: Allowance of document-level annotations</li>
+    <li><b>full_texts</b>: Suitability for full texts</li>
+    <li><b>highlight</b>: Ability to highlight parts of the text</li>
+    <li><b>iaa</b>: Support for inter-annotator agreement (IAA)</li>
+    <li><b>medline_pmc</b>: Integration with PubMed</li>
+    <li><b>multilabel</b>: Allowance of multi-label annotations</li>
+    <li><b>multilingual</b>: Support for various languages</li>
+    <li><b>ontologies</b>: Support for ontologies and terminologies</li>
+    <li><b>partial_save</b>: Allowance for saving documents partially</li>
+    <li><b>preannotations</b>: Support for pre-annotations</li>
+    <li><b>relationships</b>: Support for annotation of relationships</li>
+    <li><b>users_teams</b>: Support for users and teams</li>
+  </ul>
+
+  <h4>#requirements</h4>
+  <ul>
+    <li><b>available</b>: Should be readily available</li>
+    <li><b>installable</b>: If not available online, should be able to be installed in a maximum of 2 h</li>
+    <li><b>schematic</b>: Allowance for the configuration of a schema</li>
+    <li><b>type</b>: Type of the tool: Web-based, Plug-in, Stand-alone</li>
+    <li><b>workable</b>: Whether it worked properly during our experiments</li>
+  </ul>
+
+  <h4>#technical</h4>
+  <ul>
+    <li><b>documentation</b>: Quality of the documentation</li>
+    <li><b>free</b>: Free of charge version</li>
+    <li><b>installation</b>: Easiness of installation</li>
+    <li><b>last_version</b>:  Date of the last version</li>
+    <li><b>license</b>: Type of license</li>
+    <li><b>online_available</b>: Online availability for use</li>
+    <li><b>source_code</b>: Availability of the source code</li>
+  </ul>
+  </p>
+
+  <p id="newtool">
+  <h3>How do I ask to add a new annotation tool?</h3>
+
+  Please add an issue asking for that in our <a href="https://github.com/mariananeves/annotation-tools">Annotationsaurus GitHub page</a>.
+  We'll add the tool to the list in GitHub and will try to evaluate it over some of the features.
+  Please inform the URL of the tool and its publication (if available), as well as any addiitonal important infrmation.
+  </p>
+
+  <p id="newcriterion">
+  <h3>How do I ask to add a new criterion?</h3>
+
+  Please add an issue asking for that in our <a href="https://github.com/mariananeves/annotation-tools">Annotationsaurus GitHub page</a>.
+  We'll analyze this new criterion, and eventually, add it at least the tools for which we can easily evaluate the criterion.
+  </p>
+
+  <p id="changecriterion">
+  <h3>The evaluation of a criterion is wrong for a particular tool, could you correct it?</h3>
+
+  Please add an issue asking for that in our <a href="https://github.com/mariananeves/annotation-tools">Annotationsaurus GitHub page</a>.
+  Please also add some evidence for this change, such as by referring to the tool's publcation or tutorial, or by uploading a screenshot.
+  We'll analyze the evidence, and eventually update the evaluation, otherwise, we'll contest your request.
+  </p>
+
+  <p id="trust">
+  <h3>Why should I trust the evaluation that you carried out?</h3>
+
+  We're researchers working on this are since many years, and we have not been involved in the development of any annotation tool.
+  Therefore, we don not have any reasons to favor a particular tool.
+  And we published our <a href="https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbz130/5670958">methodology</a> in a reputable journal.
+  We certainly might have done some mistakes in the evaluationof some tools, but we offer the opportunity for the community to help us to keep our evaluation as up to date as possible.
+  </p>
+
+  <p id="collaborate">
+  <h3>I find the project great, could I collaborate with you?</h3>
+
+  Sure, we'de be glad to have the support of other researchers.
+  Please check our contact info in our profile at <a href="https://github.com/mariananeves/annotation-tools">GitHub </a>.
+  For instance, we envisage that there are many interesting projects for automatizing the evaluation of some of the criteria that we consider here.
+  </p>
+</md-bottom-sheet>`,
         controller: 'WordcountController',
         clickOutsideToClose: true
       }).then(function(clickedItem) {
@@ -246,5 +366,20 @@ WordcountApp.filter('join', function () {
     return (!angular.isUndefined(prop) ? array.map(function (item) {
       return item[prop];
     }) : array).join(separator);
+  };
+});
+
+
+WordcountApp.filter('targets', function() {
+  return function(x) {
+    var i, c, txt = "";
+    for (i = 0; i < x.length; i++) {
+      c = x[i];
+
+      c = c.toUpperCase();
+
+      txt += c;
+    }
+    return txt;
   };
 });
