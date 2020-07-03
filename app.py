@@ -4,8 +4,8 @@ from flask import Flask
 from flask import jsonify
 from flask import render_template
 
-from stats import load_criteria
-from stats import load_tools
+from reader import load_criteria
+from reader import load_tools
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY') or ""

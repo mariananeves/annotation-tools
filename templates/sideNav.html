@@ -1,4 +1,8 @@
+
 <md-sidenav class="md-sidenav-right md-whiteframe-4dp" md-component-id="right" ng-cloak ng-init="getCriteria()">
+  <md-switch ng-model="switchData" aria-label="Switch 2" ng-true-value="'AND'" ng-false-value="'OR'" class="md-warn">
+    [[ switchData ]]
+  </md-switch>
   <div ng-repeat="(key, value) in returnCriteria">
     <md-toolbar class="md-warn" ng-model="toggleCriteria[key]" ng-click="toggleCriteria[key]=!toggleCriteria[key]">[[ key ]]</md-toolbar>
     <md-content ng-repeat="(key1, value1) in value" layout="column" ng-show="toggleCriteria[key]">
