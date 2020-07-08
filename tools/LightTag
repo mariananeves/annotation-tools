@@ -26,7 +26,7 @@ multilabel:no
 document_level:no
 relationships:yes
 ontologies:no
-preannotations:partial
+preannotations:yes
 medline_pmc:no
 full_texts:yes
 partial_save:yes
