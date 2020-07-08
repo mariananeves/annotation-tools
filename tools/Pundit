@@ -1,0 +1,37 @@
+name:Pundit
+# requirements
+available:yes
+type:web-based
+#installable:yes,no
+#workable:yes,no
+schematic:no
+# criteria: publication
+last_publication:0
+citations:0
+citations_corpora:0
+# criteria: technical
+#last_version:[year]
+source_code:no
+online_available:yes
+installation:easy
+documentation:good
+license:none
+free:yes
+# criteria: data format
+#format_schema:XML,JSON,GUI,other
+format_documents:other
+#format_annotations:XML,JSON,TXT,other
+# criteria: functional
+#multilabel:yes,no
+#document_level:yes,partial,no
+relationships:no
+ontologies:no
+preannotations:no
+medline_pmc:no
+full_texts:yes
+partial_save:yes
+highlight:yes
+users_teams:yes
+iaa:no
+data_privacy:no
+multilingual:yes

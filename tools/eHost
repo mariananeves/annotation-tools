@@ -1,0 +1,37 @@
+name:eHost
+# requirements
+available:no
+#type:web-based,stand-alone,plug-in
+#installable:yes,no
+workable:no
+schematic:yes
+# criteria: publication
+last_publication:0
+citations:0
+citations_corpora:0
+# criteria: technical
+last_version:2015
+source_code:no
+online_available:no
+#installation:easy,medium,hard
+documentation:poor
+license:full
+free:yes
+# criteria: data format
+#format_schema:XML,JSON,GUI,other
+#format_documents:XML,JSON,TXT,other
+#format_annotations:XML,JSON,TXT,other
+# criteria: functional
+#multilabel:yes,no
+#document_level:yes,partial,no
+relationships:yes
+#ontologies:yes,no
+#preannotations:yes,partial,no
+medline_pmc:no
+#full_texts:yes,partial,no
+#partial_save:yes,partial,no
+#highlight:yes,no
+#users_teams:yes,partial,no
+#iaa:yes,partial,no
+data_privacy:yes
+#multilingual:yes,partial,no

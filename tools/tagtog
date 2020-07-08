@@ -1,0 +1,37 @@
+name:tagtog
+# requirements
+available:yes
+type:web-based
+installable:yes
+workable:yes
+schematic:yes
+# criteria: publication
+last_publication:2014
+citations:23
+citations_corpora:3
+# criteria: technical
+last_version:2020
+source_code:no
+online_available:yes
+installation:easy
+documentation:good
+license:partial
+free:partial
+# criteria: data format
+format_schema:GUI
+format_documents:XML
+format_annotations:XML
+# criteria: functional
+multilabel:yes
+document_level:yes
+relationships:yes
+ontologies:no
+preannotations:yes
+medline_pmc:yes
+full_texts:yes
+partial_save:yes
+highlight:yes
+users_teams:yes
+iaa:no
+data_privacy:no
+multilingual:yes

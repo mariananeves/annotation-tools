@@ -1,0 +1,37 @@
+name:OLLIE
+# requirements
+available:no
+type:web-based
+#installable:yes,no
+#workable:yes,no
+schematic:yes
+# criteria: publication
+last_publication:2003
+citations:34
+citations_corpora:0
+# criteria: technical
+#last_version:[year]
+#source_code:yes,no
+online_available:no
+#installation:easy,medium,hard
+documentation:none
+license:none
+#free:yes,partial,no
+# criteria: data format
+#format_schema:XML,JSON,GUI,other
+format_documents:XML
+format_annotations:XML
+# criteria: functional
+#multilabel:yes,no
+#document_level:yes,partial,no
+relationships:no
+ontologies:yes
+preannotations:yes
+medline_pmc:no
+#full_texts:yes,partial,no
+#partial_save:yes,partial,no
+highlight:yes
+users_teams:yes
+#iaa:yes,partial,no
+#data_privacy:yes,no
+#multilingual:yes,partial,no

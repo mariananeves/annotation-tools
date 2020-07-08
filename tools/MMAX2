@@ -1,0 +1,37 @@
+name:MMAX2
+# requirements
+available:yes
+type:stand-alone
+installable:yes
+workable:yes,no
+schematic:yes
+# criteria: publication
+last_publication:2006
+citations:301
+citations_corpora:7
+# criteria: technical
+last_version:2010
+source_code:yes
+online_available:no
+installation:easy
+documentation:good
+license:full
+free:yes
+# criteria: data format
+format_schema:XML
+format_documents:XML
+format_annotations:XML
+# criteria: functional
+multilabel:no
+document_level:no
+relationships:yes
+ontologies:yes
+preannotations:no
+medline_pmc:no
+full_texts:no
+partial_save:yes
+highlight:yes
+users_teams:yes
+iaa:yes
+data_privacy:yes
+#multilingual:yes,partial,no

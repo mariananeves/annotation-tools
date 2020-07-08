@@ -1,0 +1,37 @@
+name:SAWT
+# requirements
+available:no
+type:web-based
+#installable:yes,no
+#workable:yes,no
+schematic:yes
+# criteria: publication
+last_publication:2016
+citations:4
+citations_corpora:0
+# criteria: technical
+last_version:2016
+source_code:no
+online_available:no
+#installation:easy,medium,hard
+documentation:none
+license:none
+#free:yes,no
+# criteria: data format
+#format_schema:XML,JSON,GUI,other
+format_documents:TXT
+#format_annotations:XML,JSON,TXT,other
+# criteria: functional
+multilabel:no
+document_level:no
+relationships:no
+ontologies:no
+preannotations:no
+medline_pmc:no
+full_texts:yes
+partial_save:no
+highlight:no
+users_teams:no
+#iaa:yes,partial,no
+#data_privacy:yes,no
+multilingual:yes

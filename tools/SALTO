@@ -1,0 +1,37 @@
+name:SALTO
+# requirements
+available:yes
+type:stand-alone
+#installable:yes,no
+#workable:yes,no
+schematic:yes
+# criteria: publication
+last_publication:2006
+citations:97
+citations_corpora:14
+# criteria: technical
+last_version:2012
+source_code:yes
+online_available:no
+#installation:easy,medium,hard
+documentation:poor
+license:none
+free:yes
+# criteria: data format
+format_schema:XML
+format_documents:XML
+format_annotations:XML
+# criteria: functional
+multilabel:no
+document_level:no
+relationships:partial
+ontologies:no
+preannotations:yes
+medline_pmc:no
+full_texts:no
+partial_save:yes
+highlight:no
+users_teams:no
+#iaa:yes,partial,no
+data_privacy:yes
+multilingual:yes

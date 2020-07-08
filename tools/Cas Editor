@@ -1,0 +1,37 @@
+name:Cas Editor
+# requirements
+available:no
+type:plug-in
+#installable:yes,no
+#workable:yes,no
+schematic:yes
+# criteria: publication
+last_publication:0
+citations:0
+citations_corpora:0
+# criteria: technical
+#last_version:[year]
+source_code:no
+online_available:no
+#installation:easy,medium,hard
+documentation:good
+license:full
+#free:yes,partial,no
+# criteria: data format
+format_schema:GUI
+format_documents:XML
+format_annotations:XML
+# criteria: functional
+#multilabel:yes,no
+#document_level:yes,partial,no
+#relationships:yes,partial,no
+#ontologies:yes,no
+#preannotations:yes,partial,no
+medline_pmc:no
+#full_texts:yes,partial,no
+#partial_save:yes,partial,no
+highlight:yes
+users_teams:no
+iaa:no
+data_privacy:no
+#multilingual:yes,partial,no

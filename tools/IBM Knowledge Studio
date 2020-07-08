@@ -1,0 +1,37 @@
+name:IBM Knowledge Studio
+# requirements
+available:yes
+type:web-based
+installable:yes
+workable:yes
+schematic:yes
+# criteria: publication
+last_publication:0
+citations:0
+citations_corpora:0
+# criteria: technical
+#last_version:[year]
+source_code:no
+online_available:yes
+installation:easy
+documentation:good
+#license:full,partial,none
+free:no
+# criteria: data format
+format_schema:GUI
+#format_documents:XML,JSON,TXT,other
+format_annotations:JSON
+# criteria: functional
+#multilabel:yes,no
+document_level:no
+relationships:yes
+ontologies:yes
+#preannotations:yes,partial,no
+medline_pmc:no
+#full_texts:yes,partial,no
+#partial_save:yes,partial,no
+highlight:yes
+users_teams:yes
+#iaa:yes,partial,no
+data_privacy:no
+multilingual:yes

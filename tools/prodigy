@@ -1,0 +1,37 @@
+name:prodigy
+# requirements
+available:yes
+type:web-based
+installable:yes
+workable:yes
+schematic:yes
+# criteria: publication
+last_publication:0
+citations:0
+citations_corpora:0
+# criteria: technical
+last_version:2019
+source_code:no
+online_available:no
+installation:easy
+documentation:good
+license:none
+free:no
+# criteria: data format
+format_schema:JSON
+format_documents:JSON
+format_annotations:JSON
+# criteria: functional
+#multilabel:yes,no
+document_level:yes
+relationships:no
+ontologies:no
+preannotations:yes
+medline_pmc:no
+full_texts:yes
+partial_save:yes
+highlight:yes
+users_teams:partial
+iaa:no
+data_privacy:yes
+multilingual:yes

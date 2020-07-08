@@ -1,0 +1,37 @@
+name:Marky
+# requirements
+available:yes
+type:web-based
+installable:no
+#workable:yes,no
+schematic:yes
+# criteria: publication
+last_publication:2015
+citations:13
+citations_corpora:1
+# criteria: technical
+last_version:2014
+source_code:yes
+online_available:no
+installation:hard
+documentation:poor
+license:full
+free:yes
+# criteria: data format
+format_schema:GUI
+format_documents:TXT
+format_annotations:TXT
+# criteria: functional
+multilabel:no
+document_level:no
+relationships:no
+ontologies:no
+#preannotations:yes,partial,no
+medline_pmc:yes
+full_texts:yes
+partial_save:yes
+highlight:yes
+users_teams:yes
+iaa:yes
+data_privacy:yes
+#multilingual:yes,partial,no

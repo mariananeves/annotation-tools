@@ -1,0 +1,37 @@
+name:UniversalAnnotationTool
+# requirements
+available:yes
+type:web-based
+#installable:yes,no
+#workable:yes,no
+schematic:yes
+# criteria: publication
+last_publication:0
+citations:0
+citations_corpora:0
+# criteria: technical
+last_version:2020
+source_code:yes
+online_available:yes
+installation:easy
+documentation:good,poor,none
+license:full
+free:yes
+# criteria: data format
+format_schema:GUI
+format_documents:JSON
+format_annotations:JSON
+# criteria: functional
+multilabel:no
+document_level:yes
+relationships:no
+ontologies:no
+#preannotations:yes,partial,no
+medline_pmc:no
+#full_texts:yes,partial,no
+#partial_save:yes,partial,no
+highlight:yes
+#users_teams:yes,partial,no
+iaa:no
+data_privacy:yes
+#multilingual:yes,partial,no

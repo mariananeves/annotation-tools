@@ -1,0 +1,37 @@
+name:Atomic
+# requirements
+available:no
+type:plug-in
+#installable:yes,no
+#workable:yes,no
+schematic:yes
+# criteria: publication
+last_publication:2014
+citations:14
+citations_corpora:0
+# criteria: technical
+#last_version:2018
+source_code:no
+online_available:no
+#installation:easy,medium,hard
+documentation:none
+license:none
+free:yes
+# criteria: data format
+format_schema:XML
+format_documents:XML
+format_annotations:XML
+# criteria: functional
+#multilabel:yes,no
+document_level:no
+relationships:yes
+ontologies:yes
+preannotations:no
+medline_pmc:no
+#full_texts:yes,partial,no
+partial_save:yes
+highlight:yes
+users_teams:no
+iaa:no
+data_privacy:yes
+#multilingual:yes,partial,no

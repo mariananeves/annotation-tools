@@ -1,0 +1,37 @@
+name:MyMiner
+# requirements
+available:yes
+type:web-based
+installable:yes
+workable:yes
+schematic:yes
+# criteria: publication
+last_publication:2012
+citations:28
+citations_corpora:2
+# criteria: technical
+#last_version:[year]
+source_code:no
+online_available:yes
+installation:easy
+documentation:good
+license:none
+free:yes
+# criteria: data format
+format_schema:GUI
+format_documents:TXT
+format_annotations:TXT
+# criteria: functional
+multilabel:no
+document_level:yes
+relationships:partial
+ontologies:no
+preannotations:yes
+medline_pmc:yes
+full_texts:no
+partial_save:yes
+highlight:yes,no
+users_teams:no
+iaa:no
+data_privacy:no
+multilingual:yes

@@ -1,0 +1,37 @@
+name:WARP-Text
+# requirements
+available:yes
+type:web-based
+installable:yes
+workable:yes
+schematic:yes
+# criteria: publication
+last_publication:2017
+citations:5
+citations_corpora:0
+# criteria: technical
+last_version:2018
+source_code:yes
+online_available:no
+installation:medium
+documentation:good
+license:full
+free:yes
+# criteria: data format
+format_schema:GUI
+format_documents:TXT
+format_annotations:TXT
+# criteria: functional
+multilabel:no
+document_level:no
+relationships:no
+ontologies:no
+preannotations:partial
+medline_pmc:no
+full_texts:yes
+partial_save:yes
+highlight:no
+users_teams:partial
+iaa:partial
+data_privacy:yes
+multilingual:no

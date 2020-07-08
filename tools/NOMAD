@@ -1,0 +1,37 @@
+name:NOMAD
+# requirements
+available:yes
+type:stand-alone
+#installable:yes,no
+#workable:yes,no
+schematic:yes
+# criteria: publication
+last_publication:2014
+citations:2
+citations_corpora:0
+# criteria: technical
+#last_version:[year]
+source_code:no
+online_available:no
+#installation:easy,medium,hard
+documentation:good
+license:full
+free:yes
+# criteria: data format
+format_schema:XML
+format_documents:TXT
+format_annotations:XML
+# criteria: functional
+#multilabel:yes,no
+document_level:no
+relationships:no
+ontologies:no
+preannotations:no
+medline_pmc:no
+full_texts:yes
+#partial_save:yes,partial,no
+highlight:yes
+users_teams:yes
+iaa:no
+data_privacy:yes
+multilingual:yes

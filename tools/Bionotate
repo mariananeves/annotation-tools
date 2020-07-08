@@ -1,0 +1,37 @@
+name:Bionotate
+# requirements
+available:yes
+type:web-based
+installable:no
+workable:yes
+schematic:yes
+# criteria: publication
+last_publication:2009
+citations:33
+citations_corpora:0
+# criteria: technical
+last_version:2008
+source_code:yes
+online_available:no
+#installation:easy,medium,hard
+documentation:poor
+license:full,partial,none
+free:yes
+# criteria: data format
+format_schema:XML
+format_documents:XML
+format_annotations:XML
+# criteria: functional
+multilabel:no
+document_level:yes
+relationships:partial
+ontologies:no
+preannotations:yes
+medline_pmc:no
+full_texts:no
+partial_save:yes
+highlight:yes
+users_teams:yes
+iaa:yes
+data_privacy:yes
+#multilingual:yes,partial,no

@@ -1,0 +1,37 @@
+name:SMART
+# requirements
+available:yes
+type:web-based
+#installable:yes,no
+#workable:yes,no
+schematic:yes
+# criteria: publication
+last_publication:2019
+citations:0
+citations_corpora:0
+# criteria: technical
+last_version:2020
+source_code:yes
+online_available:no
+#installation:easy,medium,hard
+documentation:good
+license:full
+free:yes
+# criteria: data format
+format_schema:GUI
+format_documents:TXT
+format_annotations:TXT
+# criteria: functional
+multilabel:no
+document_level:yes
+relationships:no
+ontologies:no
+preannotations:yes
+medline_pmc:no
+#full_texts:yes,partial,no
+#partial_save:yes,partial,no
+highlight:no
+#users_teams:yes,partial,no
+iaa:yes
+data_privacy:yes
+#multilingual:yes,partial,no

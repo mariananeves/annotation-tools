@@ -1,0 +1,37 @@
+name:PALinkA
+# requirements
+available:no
+type:stand-alone
+#installable:yes,no
+#workable:yes,no
+schematic:yes
+# criteria: publication
+last_publication:2003
+citations:102
+citations_corpora:0
+# criteria: technical
+#last_version:[year]
+source_code:no
+online_available:no
+#installation:easy,medium,hard
+documentation:none
+license:none
+#free:yes,no
+# criteria: data format
+format_schema:XML
+format_documents:XML
+format_annotations:XML
+# criteria: functional
+multilabel:no
+document_level:no
+relationships:yes
+ontologies:yes
+#preannotations:yes,partial,no
+medline_pmc:no
+#full_texts:yes,partial,no
+#partial_save:yes,partial,no
+highlight:yes
+users_teams:no
+iaa:no
+data_privacy:yes
+#multilingual:yes,partial,no
