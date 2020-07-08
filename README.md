@@ -1,4 +1,7 @@
 
+We have evaluated all tools with regard to many criteria. Further, we developed a Web application for searching for the tools that best fits your needs. 
+Scripts and tools' evaluation files are currently available in "new_frontend" branch of this repository. The Web application is currently running [here](https://annotationsaurus.herokuapp.com/).
+
 Please cite our survey if you use this repository:
 
 Mariana Neves and Jurica Seva. **An extensive review of tools for manual annotation of documents**, *Briefings in Bioinformatics*, 2019. [PDF and BibTex](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbz130/5670958)
