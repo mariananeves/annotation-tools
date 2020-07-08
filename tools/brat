@@ -1,0 +1,37 @@
+name:brat
+# requirements
+available:yes
+type:web-based
+installable:yes
+workable:yes
+schematic:yes
+# criteria: publication
+last_publication:2012
+citations:632
+citations_corpora:11
+# criteria: technical
+last_version:2012
+source_code:yes
+online_available:no
+installation:hard
+documentation:good
+license:full
+free:yes
+# criteria: data format
+format_schema:other
+format_documents:TXT
+format_annotations:TXT
+# criteria: functional
+multilabel:yes
+document_level:no
+relationships:yes
+ontologies:yes
+preannotations:yes
+medline_pmc:no
+full_texts:yes
+partial_save:yes
+highlight:yes
+users_teams:yes
+iaa:no
+data_privacy:yes
+multilingual:yes

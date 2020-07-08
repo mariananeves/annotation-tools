@@ -1,0 +1,37 @@
+name:LightTag
+# requirements
+available:yes
+type:web-based
+installable:yes
+workable:yes
+schematic:yes
+# criteria: publication
+last_publication:0
+citations:0
+citations_corpora:9
+# criteria: technical
+#last_version:[year]
+source_code:no
+online_available:yes
+installation:easy
+documentation:good
+license:none
+free:partial
+# criteria: data format
+format_schema:GUI
+format_documents:JSON
+format_annotations:JSON
+# criteria: functional
+multilabel:no
+document_level:no
+relationships:yes
+ontologies:no
+preannotations:partial
+medline_pmc:no
+full_texts:yes
+partial_save:yes
+highlight:yes
+users_teams:yes
+iaa:yes
+data_privacy:no
+multilingual:yes

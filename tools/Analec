@@ -1,0 +1,37 @@
+name:Analec
+# requirements
+available:no
+type:stand-alone
+#installable:yes,no
+#workable:yes,no
+schematic:yes
+# criteria: publication
+last_publication:2012
+citations:38
+citations_corpora:0
+# criteria: technical
+#last_version:[year]
+#source_code:yes,no
+online_available:no
+#installation:easy,medium,hard
+documentation:poor
+#license:full,partial,none
+#free:yes,partial,no
+# criteria: data format
+format_schema:GUI
+#format_documents:XML,JSON,TXT,other
+format_annotations:XML
+# criteria: functional
+#multilabel:yes,no
+#document_level:yes,partial,no
+#relationships:yes,partial,no
+#ontologies:yes,no
+#preannotations:yes,partial,no
+medline_pmc:no
+#full_texts:yes,partial,no
+#partial_save:yes,partial,no
+highlight:yes
+#users_teams:yes,partial,no
+#iaa:yes,partial,no
+data_privacy:yes
+#multilingual:yes,partial,no

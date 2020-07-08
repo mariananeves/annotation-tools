@@ -1,0 +1,37 @@
+name:TextAnnotator
+# requirements
+available:yes
+type:web-based
+#installable:yes,no
+#workable:yes,no
+schematic:yes
+# criteria: publication
+last_publication:2015
+citations:3
+citations_corpora:2
+# criteria: technical
+#last_version:[year]
+source_code:no
+online_available:yes
+installation:easy
+documentation:none
+license:none
+#free:yes,partial,no
+# criteria: data format
+format_schema:XML
+format_documents:XML
+format_annotations:XML
+# criteria: functional
+multilabel:yes
+#document_level:yes,partial,no
+relationships:yes
+#ontologies:yes,no
+#preannotations:yes,partial,no
+medline_pmc:no
+#full_texts:yes,partial,no
+#partial_save:yes,partial,no
+highlight:yes
+#users_teams:yes,partial,no
+#iaa:yes,partial,no
+data_privacy:no
+multilingual:yes

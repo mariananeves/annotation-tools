@@ -1,0 +1,37 @@
+name:Glozz
+# requirements
+available:yes
+type:stand-alone
+#installable:yes,no
+#workable:yes,no
+schematic:yes
+# criteria: publication
+last_publication:2012
+citations:43
+citations_corpora:4
+# criteria: technical
+last_version:2014
+#source_code:yes,no
+online_available:no
+#installation:easy,medium,hard
+documentation:good
+license:none
+free:yes
+# criteria: data format
+format_schema:XML
+format_documents:XML
+format_annotations:XML
+# criteria: functional
+#multilabel:yes,no
+#document_level:yes,partial,no
+relationships:yes
+ontologies:no
+#preannotations:yes,partial,no
+medline_pmc:no
+#full_texts:yes,partial,no
+partial_save:yes
+highlight:yes
+users_teams:no
+iaa:no
+data_privacy:yes
+#multilingual:yes,partial,no

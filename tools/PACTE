@@ -1,0 +1,37 @@
+name:PACTE
+# requirements
+available:yes
+type:web-based
+installable:yes
+workable:no
+schematic:yes
+# criteria: publication
+last_publication:2017
+citations:5
+citations_corpora:1
+# criteria: technical
+last_version:2018
+source_code:no
+online_available:yes
+installation:easy
+documentation:none
+license:none
+free:yes
+# criteria: data format
+format_schema:JSON
+format_documents:TXT
+#format_annotations:XML,JSON,TXT,other
+# criteria: functional
+#multilabel:yes,no
+#document_level:yes,partial,no
+relationships:no
+#ontologies:yes,no
+preannotations:yes
+medline_pmc:no
+#full_texts:yes,partial,no
+partial_save:yes
+highlight:yes
+users_teams:yes
+#iaa:yes,partial,no
+data_privacy:no
+multilingual:partial

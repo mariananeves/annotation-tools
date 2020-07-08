@@ -1,0 +1,37 @@
+name:TextAE
+# requirements
+available:yes
+type:web-based
+installable:yes
+workable:yes
+schematic:yes
+# criteria: publication
+last_publication:0
+citations:2
+citations_corpora:9
+# criteria: technical
+last_version:2018
+source_code:yes
+online_available:yes
+installation:easy
+documentation:good
+license:full
+free:yes
+# criteria: data format
+format_schema:JSON
+format_documents:JSON
+format_annotations:JSON
+# criteria: functional
+multilabel:no
+document_level:no
+relationships:yes
+ontologies:no
+preannotations:yes
+medline_pmc:yes
+full_texts:yes
+partial_save:yes
+highlight:yes
+users_teams:no
+iaa:no
+data_privacy:yes
+multilingual:partial

@@ -1,0 +1,38 @@
+name:AGTK
+# requirements
+available:yes
+type:stand-alone
+#installable:yes,no
+#workable:yes,no
+schematic:yes
+# criteria: publication
+last_publication:2006
+citations:11
+citations_corpora:0
+# criteria: technical
+last_version:2007
+#source_code:yes,no
+online_available:no
+#installation:easy,medium,hard
+documentation:poor
+license:full
+free:yes
+# criteria: data format
+format_schema:XML
+format_documents:XML,other
+format_annotations:XML,other
+# criteria: functional
+#multilabel:yes,no
+#document_level:yes,partial,no
+relationships:no
+#ontologies:yes,no
+#preannotations:yes,partial,no
+medline_pmc:no
+#full_texts:yes,partial,no
+#partial_save:yes,partial,no
+highlight:yes
+users_teams:yes
+iaa:no
+data_privacy:yes
+multilingual:yes
+

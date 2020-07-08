@@ -1,0 +1,37 @@
+name:YEDDA
+# requirements
+available:yes
+type:stand-alone
+#installable:yes,no
+#workable:yes,no
+schematic:yes
+# criteria: publication
+last_publication:2018
+citations:12
+citations_corpora:0
+# criteria: technical
+last_version:2018
+source_code:yes
+online_available:no
+#installation:easy,medium,hard
+documentation:poor
+license:full
+free:yes
+# criteria: data format
+format_schema:GUI
+format_documents:TXT
+format_annotations:TXT
+# criteria: functional
+#multilabel:yes,no
+document_level:no
+relationships:no
+ontologies:no
+preannotations:yes
+medline_pmc:no
+#full_texts:yes,partial,no
+#partial_save:yes,partial,no
+highlight:yes
+users_teams:no
+iaa:yes
+data_privacy:yes
+multilingual:yes

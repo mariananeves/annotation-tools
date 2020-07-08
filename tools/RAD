@@ -1,0 +1,37 @@
+name:RAD
+# requirements
+available:no
+#type:web-based,stand-alone,plug-in
+#installable:yes,no
+#workable:yes,no
+#schematic:yes,no
+# criteria: publication
+last_publication:2008
+citations:15
+citations_corpora:0
+# criteria: technical
+#last_version:[year]
+source_code:no
+online_available:no
+#installation:easy,medium,hard
+#documentation:good,poor,none
+#license:full,partial,none
+#free:yes,partial,no
+# criteria: data format
+#format_schema:XML,JSON,GUI,other
+#format_documents:XML,JSON,TXT,other
+#format_annotations:XML,JSON,TXT,other
+# criteria: functional
+#multilabel:yes,no
+#document_level:yes,partial,no
+#relationships:yes,partial,no
+#ontologies:yes,no
+preannotations:yes
+medline_pmc:no
+#full_texts:yes,partial,no
+#partial_save:yes,partial,no
+#highlight:yes,no
+#users_teams:yes,partial,no
+#iaa:yes,partial,no
+#data_privacy:yes,no
+#multilingual:yes,partial,no

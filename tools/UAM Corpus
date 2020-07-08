@@ -1,0 +1,37 @@
+name:UAM Corpus
+# requirements
+available:yes
+type:stand-alone
+installable:yes
+workable:yes
+schematic:yes
+# criteria: publication
+last_publication:2008
+citations:116
+citations_corpora:10
+# criteria: technical
+last_version:2019
+source_code:no
+online_available:no
+#installation:easy,medium,hard
+documentation:good
+#license:full,partial,none
+free:yes
+# criteria: data format
+format_schema:GUI
+#format_documents:XML,JSON,TXT,other
+format_annotations:XML
+# criteria: functional
+multilabel:no
+document_level:yes
+relationships:yes
+ontologies:no
+preannotations:no
+medline_pmc:no
+full_texts:no
+partial_save:no
+highlight:no
+users_teams:no
+#iaa:yes,partial,no
+#data_privacy:yes,no
+#multilingual:yes,partial,no

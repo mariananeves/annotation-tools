@@ -1,0 +1,37 @@
+name:Coco
+# requirements
+available:no
+type:web-based
+#installable:yes,no
+#workable:yes,no
+schematic:no
+# criteria: publication
+last_publication:2009
+citations:12
+citations_corpora:3
+# criteria: technical
+#last_version:[year]
+source_code:no
+online_available:no
+#installation:easy,medium,hard
+documentation:none
+license:none
+#free:yes,partial,no
+# criteria: data format
+#format_schema:XML,JSON,GUI,other
+#format_documents:XML,JSON,TXT,other
+#format_annotations:XML,JSON,TXT,other
+# criteria: functional
+multilabel:no
+document_level:no
+relationships:no
+ontologies:no
+#preannotations:yes,partial,no
+medline_pmc:no
+full_texts:no
+#partial_save:yes,partial,no
+highlight:no
+#users_teams:yes,partial,no
+#iaa:yes,partial,no
+data_privacy:no
+#multilingual:yes,partial,no
