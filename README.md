@@ -1,4 +1,6 @@
 
+# Annotationsaurus #
+
 We have evaluated all tools with regard to many criteria. Further, we developed a Web application for searching for the tools that best fits your needs. 
 Scripts and tools' evaluation files are currently available in this repository. A [Web application](https://annotationsaurus.herokuapp.com/) is currently running in Heroku.
 
