@@ -6,6 +6,9 @@ Please check the FAQ page in the Web application for instructions on how to requ
 
 Please cite our survey if you use this repository:
 
+
+Mariana Neves and Jurica Seva. **Annotationsaurus: A Searchable Directory of Annotation Tools**, *ArXiv*, 2020. [PDF and BibTex](https://arxiv.org/abs/2010.06251)
+
 Mariana Neves and Jurica Seva. **An extensive review of tools for manual annotation of documents**, *Briefings in Bioinformatics*, 2019. [PDF and BibTex](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbz130/5670958)
 
 ---
