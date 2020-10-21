@@ -1,6 +1,6 @@
 
 We have evaluated all tools with regard to many criteria. Further, we developed a Web application for searching for the tools that best fits your needs. 
-Scripts and tools' evaluation files are currently available in "new_frontend" branch of this repository. The Web application is currently running [here](https://annotationsaurus.herokuapp.com/).
+Scripts and tools' evaluation files are currently available in this repository. The Web application is currently running [here](https://annotationsaurus.herokuapp.com/).
 
 Please check the FAQ page in the Web application for instructions on how to request for the adition of new tools, or for changes in our evaluation of the tools. 
 
