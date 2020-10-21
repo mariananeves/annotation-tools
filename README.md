@@ -110,3 +110,12 @@ List of annotation tools (in alphabetical order):
 | WordFreak | [link to paper](http://www.aclweb.org/anthology/N03-4009) | [link to tool](http://wordfreak.sourceforge.net/) |
 | XConc Suite | paper not found | [link to tool](http://www.geniaproject.org/tools/xconc) |
 | YEDDA | [link to paper](http://www.aclweb.org/anthology/P18-4006) | [link to tool](https://github.com/jiesutd/YEDDA) |
+
+---
+
+TO-DO list (in alphabetical order):
+
+| Tools | Publication | Link |
+| ---- | ---- | ---- |
+| OGER | [link to paper](https://nlp.idsia.ch/TOOLS/OGER/) | [link to tool](https://arxiv.org/abs/2003.07424) |
+
