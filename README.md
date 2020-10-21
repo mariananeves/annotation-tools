@@ -14,6 +14,7 @@ Mariana Neves and Jurica Seva. **An extensive review of tools for manual annotat
 ---
 
 List of annotation tools (in alphabetical order):
+(see TO-DO list at the end of the page)
 
 | Tools | Publication | Link |
 | ---- | ---- | ---- |
