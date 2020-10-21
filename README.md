@@ -119,6 +119,7 @@ TO-DO list (in alphabetical order):
 
 | Tools | Publication | Link |
 | ---- | ---- | ---- |
+| Litescale | paper not found | [link to tool](https://github.com/valeriobasile/litescale) |
 | OGER | [link to paper](https://nlp.idsia.ch/TOOLS/OGER/) | [link to tool](https://arxiv.org/abs/2003.07424) |
 | SWAN | paper not found | [link to tool](https://annefried.github.io/swan/) |
 
