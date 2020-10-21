@@ -4,7 +4,7 @@ Scripts and tools' evaluation files are currently available in this repository. 
 
 Please check the FAQ page in the Web application for instructions on how to request for the adition of new tools, or for changes in our evaluation of the tools. 
 
-Please cite our survey if you use this repository:
+Please cite our publications if you use this repository:
 
 
 Mariana Neves and Jurica Seva. **Annotationsaurus: A Searchable Directory of Annotation Tools**, *ArXiv*, 2020. [PDF and BibTex](https://arxiv.org/abs/2010.06251)
