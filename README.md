@@ -120,9 +120,16 @@ TO-DO list (in alphabetical order):
 
 | Tools | Publication | Link |
 | ---- | ---- | ---- |
+| Arborator | paper not found | [link to tool](https://arborator.ilpga.fr/) |
+| EXMERaLDA | paper not found | [link to tool](https://exmaralda.org/en/) |
 | FLEx | paper not found | [link to tool](https://software.sil.org/fieldworks/) |
 | Label Studio | paper not found | [link to tool](https://labelstud.io/) |
 | Litescale | paper not found | [link to tool](https://github.com/valeriobasile/litescale) |
 | OGER | [link to paper](https://nlp.idsia.ch/TOOLS/OGER/) | [link to tool](https://arxiv.org/abs/2003.07424) |
+| RSTTool | paper not found | [link to tool](http://www.wagsoft.com/RSTTool/) |
+| rstWeb | paper not found | [link to tool](https://corpling.uis.georgetown.edu/rstweb/info/) |
 | SWAN | paper not found | [link to tool](https://annefried.github.io/swan/) |
+| Toolbox | paper not found | [link to tool](https://software.sil.org/toolbox/) |
+| TrEd | paper not found | [link to tool](https://ufal.mff.cuni.cz/tred/) |
+| UD Annotatrix | paper not found | [link to tool](https://github.com/jonorthwash/ud-annotatrix) |
 
