@@ -128,6 +128,7 @@ TO-DO list (in alphabetical order):
 | Label Studio | paper not found | [link to tool](https://labelstud.io/) |
 | Litescale | paper not found | [link to tool](https://github.com/valeriobasile/litescale) |
 | OGER | [link to paper](https://nlp.idsia.ch/TOOLS/OGER/) | [link to tool](https://arxiv.org/abs/2003.07424) |
+| Ontoclick | [link to paper](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btab520/6322981) | [link to tool](https://github.com/azankl/Ontoclick) |
 | Paladin | [link to paper](https://www.aclweb.org/anthology/2021.eacl-demos.28.pdf) | [link to tool](https://github.com/bluenqm/Paladin) |
 | Palmyra | [link to paper](https://www.aclweb.org/anthology/2020.udw-1.19.pdf) | [link to tool](https://camel-lab.github.io/palmyra/index.html) |
 | RSTTool | paper not found | [link to tool](http://www.wagsoft.com/RSTTool/) |
