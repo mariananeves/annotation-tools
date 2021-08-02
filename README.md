@@ -137,5 +137,6 @@ TO-DO list (in alphabetical order):
 | TagRuler | [link to paper](https://dl.acm.org/doi/abs/10.1145/3442442.3458602) | [link to tool](https://github.com/megagonlabs/tagruler) |
 | Toolbox | paper not found | [link to tool](https://software.sil.org/toolbox/) |
 | TrEd | paper not found | [link to tool](https://ufal.mff.cuni.cz/tred/) |
+| UBIAI | paper not found | [link to tool](https://ubiai.tools/about) |
 | UD Annotatrix | paper not found | [link to tool](https://github.com/jonorthwash/ud-annotatrix) |
 
