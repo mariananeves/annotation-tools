@@ -123,6 +123,7 @@ TO-DO list (in alphabetical order):
 | Arborator | paper not found | [link to tool](https://arborator.ilpga.fr/) |
 | DART | [link to paper](https://www.aclweb.org/anthology/2020.coling-demos.3/) | tool not found |
 | EXMERaLDA | paper not found | [link to tool](https://exmaralda.org/en/) |
+| FITAnnotator |  [link to paper](https://aclanthology.org/2021.naacl-demos.5.pdf) | tool not found |
 | FLEx | paper not found | [link to tool](https://software.sil.org/fieldworks/) |
 | HUMAN | [link to paper](https://www.aclweb.org/anthology/2020.emnlp-demos.8/) | [link to tool](http://human.lsv.uni-saarland.de/) |
 | Label Studio | paper not found | [link to tool](https://labelstud.io/) |
