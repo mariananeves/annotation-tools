@@ -134,6 +134,7 @@ TO-DO list (in alphabetical order):
 | RSTTool | paper not found | [link to tool](http://www.wagsoft.com/RSTTool/) |
 | rstWeb | paper not found | [link to tool](https://corpling.uis.georgetown.edu/rstweb/info/) |
 | SWAN | paper not found | [link to tool](https://annefried.github.io/swan/) |
+| TagRuler | [link to paper](https://dl.acm.org/doi/abs/10.1145/3442442.3458602) | [link to tool](https://github.com/megagonlabs/tagruler) |
 | Toolbox | paper not found | [link to tool](https://software.sil.org/toolbox/) |
 | TrEd | paper not found | [link to tool](https://ufal.mff.cuni.cz/tred/) |
 | UD Annotatrix | paper not found | [link to tool](https://github.com/jonorthwash/ud-annotatrix) |
