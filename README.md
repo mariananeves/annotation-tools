@@ -120,6 +120,7 @@ TO-DO list (in alphabetical order):
 
 | Tools | Publication | Link |
 | ---- | ---- | ---- |
+| ActiveAnno | [link to paper](https://aclanthology.org/2021.naacl-demos.12.pdf) | [link to tool](https://github.com/MaxMello/ActiveAnno) |
 | Arborator | paper not found | [link to tool](https://arborator.ilpga.fr/) |
 | DART | [link to paper](https://www.aclweb.org/anthology/2020.coling-demos.3/) | tool not found |
 | EXMERaLDA | paper not found | [link to tool](https://exmaralda.org/en/) |
