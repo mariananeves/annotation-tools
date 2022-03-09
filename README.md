@@ -129,7 +129,7 @@ TO-DO list (in alphabetical order):
 | HUMAN | [link to paper](https://www.aclweb.org/anthology/2020.emnlp-demos.8/) | [link to tool](http://human.lsv.uni-saarland.de/) |
 | Label Studio | paper not found | [link to tool](https://labelstud.io/) |
 | Litescale | paper not found | [link to tool](https://github.com/valeriobasile/litescale) |
-| MedTator | [link to paper](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btab880/6496915) | [link to tool](https://github.com/OHNLP/MedTator) |
+| MedTator | [link to paper](https://academic.oup.com/bioinformatics/article/38/6/1776/6496915) | [link to tool](https://github.com/OHNLP/MedTator) |
 | OGER | [link to paper](https://nlp.idsia.ch/TOOLS/OGER/) | [link to tool](https://arxiv.org/abs/2003.07424) |
 | Ontoclick | [link to paper](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btab520/6322981) | [link to tool](https://github.com/azankl/Ontoclick) |
 | Paladin | [link to paper](https://www.aclweb.org/anthology/2021.eacl-demos.28.pdf) | [link to tool](https://github.com/bluenqm/Paladin) |
